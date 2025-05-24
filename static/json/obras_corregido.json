@@ -1,0 +1,337 @@
+[
+  {
+    "id": 1,
+    "nombre": "Figura fragmentaria de basalto verde de la diosa Isis-Serqet, actualmente faltan la parte inferior del cuerpo y la base.",
+    "etiquetas": ["escultura", "religioso", "Egipto"],
+    "imagen": "img_1.jpeg",
+    "modelo_3d": "model_1.glb"
+  },
+  {
+    "id": 2,
+    "nombre": "Tabla de arcilla con cuatro y cinco líneas de inscripción",
+    "descripcion": "Tabla de arcilla con cuatro y cinco líneas de inscripción; Tercera Dinastía de Ur.",
+    "etiquetas": ["escritura", "Mesopotamia", "histórico"],
+    "imagen": "img_2.jpeg",
+    "modelo_3d": "model_2.glb"
+  },
+  {
+    "id": 3,
+    "nombre": "Tabla de arcilla con cuatro y cuatro columnas de inscripción",
+    "descripcion": "Tabla de arcilla con cuatro y cuatro columnas de inscripción; Tercera Dinastía de Ur; dos esquinas y el lado izquierdo rotos.",
+    "etiquetas": ["escritura", "Mesopotamia", "histórico"],
+    "imagen": "img_3.jpeg",
+    "modelo_3d": "model_3.glb"
+  },
+  {
+    "id": 4,
+    "nombre": "Tabla de arcilla; fragmento; extispicina; Babilonia tardía.",
+    "descripcion": "Tabla de arcilla; fragmento; extispicina; Babilonia tardía.",
+    "etiquetas": ["escritura", "ciencia antigua", "Mesopotamia"],
+    "imagen": "img_4.jpeg",
+    "modelo_3d": "model_4.glb"
+  },
+  {
+    "id": 5,
+    "nombre": "Figura votiva",
+    "descripcion": "Cabeza de mujer de una estatua votiva de diorita; usa una banda ancha para la cabeza; tallada y pulida; dañada en el ojo izquierdo y la frente. Culturas/períodos: Tercera Dinastía de Ur. Fecha de producción: 2150 a.C.-2000 a.C.",
+    "etiquetas": ["escultura", "religioso", "Mesopotamia"],
+    "imagen": "img_5.jpeg",
+    "modelo_3d": "model_5.glb"
+  },
+  {
+    "id": 6,
+    "nombre": "Modelo de barco de arcilla cocida",
+    "descripcion": "Modelo de barco de arcilla cocida; hecho a mano. Culturas/períodos: Dinástico Temprano III. Fecha de producción: 2500 a.C.",
+    "etiquetas": ["modelo", "transporte", "cerámica"],
+    "imagen": "img_6.jpeg",
+    "modelo_3d": "model_6.glb"
+  },
+  {
+    "id": 7,
+    "nombre": "Tabla de arcilla con cinco y cinco líneas de inscripción",
+    "descripcion": "Tabla de arcilla con cinco y cinco líneas de inscripción; Tercera Dinastía de Ur.",
+    "etiquetas": ["escritura", "Mesopotamia", "histórico"],
+    "imagen": "img_7.jpeg",
+    "modelo_3d": "model_7.glb"
+  },
+  {
+    "id": 8,
+    "nombre": "Tabla del Mapa del Mundo",
+    "descripcion": "Tabla de arcilla; mapa del mundo. Fecha de producción: siglo VI a.C. (aprox.).",
+    "etiquetas": ["cartografía", "Mesopotamia", "histórico"],
+    "imagen": "img_8.jpeg",
+    "modelo_3d": "model_8.glb"
+  },
+  {
+    "id": 9,
+    "nombre": "Tabla de arcilla; carta de Nanni a Ea-nasir",
+    "descripcion": "Tabla de arcilla; carta de Nanni a Ea-nasir quejándose de que se entregó el grado incorrecto de mineral de cobre después de un viaje por el golfo, y sobre la desviación y retraso de una entrega adicional. Fecha de producción: 1750 a.C.",
+    "etiquetas": ["escritura", "Mesopotamia", "histórico"],
+    "imagen": "img_9.jpeg",
+    "modelo_3d": "model_9.glb"
+  },
+  {
+    "id": 10,
+    "nombre": "Tabla de arcilla cuneiforme",
+    "descripcion": "Tabla de arcilla cuneiforme. Astronómica; texto de observación; datos lunares y planetarios para el año 7 de Cambises (523/2 a.C.).",
+    "etiquetas": ["escritura", "astronomía", "ciencia antigua", "Mesopotamia"],
+    "imagen": "img_10.jpeg",
+    "modelo_3d": "model_10.glb"
+  },
+  {
+    "id": 11,
+    "nombre": "Lámpara romana",
+    "descripcion": "Lámpara de cerámica moldeada con una boquilla de punta redondeada con volutas en los hombros, un hombro redondeado decorado con óvulos impresos y un borde moldeado inclinado hacia adentro. En la parte posterior hay un asa de anillo roto. Entre las volutas de la boquilla hay un orificio de aire. El disco está decorado con dos gladiadores, un samnita y un hoplomachus, luchando. Debajo de ellos está la inscripción 'ACVVIVS.V HERMEROSS.' indicando sus nombres, Acuvius y Hermeros. Cubierta con un deslizamiento marrón anaranjado marcado con huellas dactilares.",
+    "etiquetas": ["cerámica", "utilitario"],
+    "imagen": "img_11.jpeg",
+    "modelo_3d": "model_11.glb"
+  },
+  {
+    "id": 12,
+    "nombre": "Estanque para peces",
+    "descripcion": "Estanque para peces. Hecho de loza. Fecha de producción: siglo I-II d.C. (aprox.).",
+    "etiquetas": ["utilitario", "cerámica"],
+    "imagen": "img_12.jpeg",
+    "modelo_3d": "model_12.glb"
+  },
+  {
+    "id": 13,
+    "nombre": "Xing Hou gui",
+    "descripcion": "Recipiente de bronce del tipo llamado gui. Este recipiente se conoce como Xing Hou gui basado en su inscripción. Tiene un cuerpo redondeado constreñido en el cuello; lados profundamente curvos complementados con cuatro asas. Un cicatriz intaglio se encuentra opuesto a cada asa. Cada uno de los cuatro compartimentos de las superficies del recipiente está lleno de una criatura fabulosa que parece estar basada en un elefante; tiene una larga trompa y dos redondeles sobre su cabeza, sugiriendo los bultos en la frente de un elefante. Fecha de producción: 1050 a.C.-771 a.C. (aprox.).",
+    "etiquetas": ["escultura", "religioso", "histórico"],
+    "imagen": "img_13.jpeg",
+    "modelo_3d": "model_13.glb"
+  },
+  {
+    "id": 14,
+    "nombre": "Incensario en forma de pájaro",
+    "descripcion": "Incensario (en forma de pájaro). Gallo con pollo. Hecho de bronce. China. Período: Seis Dinastías. Fecha de producción: 220-589.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_14.jpeg",
+    "modelo_3d": "model_14.glb"
+  },
+  {
+    "id": 15,
+    "nombre": "Estatua neoasiria, Templo de Nabu",
+    "descripcion": "Estatua de caliza de un dios asistente dedicado a Nabu por Adad-Nirari III y Sammuramat; tallada en caliza inferior, de pie en actitud de sumisión, usando la corona de un solo cuerno propia de las deidades menores. Hay una inscripción cuneiforme alrededor de la falda.",
+    "etiquetas": ["escultura", "religioso", "Mesopotamia"],
+    "imagen": "img_15.jpeg",
+    "modelo_3d": "model_15.glb"
+  },
+  {
+    "id": 16,
+    "nombre": "كوديا ملك اللاجاش",
+    "descripcion": "Estatua de Gudea, rey de Lagash en el Museo Británico, colecciones en línea.",
+    "etiquetas": ["escultura", "Mesopotamia", "histórico"],
+    "imagen": "img_16.jpeg",
+    "modelo_3d": "model_16.glb"
+  },
+  {
+    "id": 17,
+    "nombre": "الثور المجنح",
+    "descripcion": "Criatura mítica creada por los asirios a partir de su imaginación: una mezcla de cabeza humana que representa la sabiduría y la inteligencia humana, cuerpo de toro que simboliza la fuerza y alas de águila para mostrar que puede ver y controlar todo. Tallada en piedra en tamaños de 1 a 5 metros, colocadas como guardianes en las puertas de palacios para intimidar enemigos.",
+    "etiquetas": ["escultura", "mitología", "Mesopotamia"],
+    "imagen": "img_17.jpeg",
+    "modelo_3d": "model_17.glb"
+  },
+  {
+    "id": 18,
+    "nombre": "اورنمو",
+    "descripcion": "Fundador de la Tercera Dinastía de Ur en Mesopotamia y creador del primer código legal de la historia. Unificó ciudades sumerias contra los guti. Construyó zigurats y templos. Murió en 2030 a.C. en batalla.",
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "imagen": "img_18.jpeg",
+    "modelo_3d": "model_18.glb"
+  },
+  {
+    "id": 19,
+    "nombre": "حجر رشيد",
+    "descripcion": "La Piedra de Rosetta en el Museo Británico.",
+    "etiquetas": ["escritura", "histórico", "Egipto"],
+    "imagen": "img_19.jpeg",
+    "modelo_3d": "model_19.glb"
+  },
+  {
+    "id": 20,
+    "nombre": "Losa de arenisca esculpida que representa a Matsya.",
+    "descripcion": "Escultura de la primera encarnación de Vishnu en forma de pez, que lleva un santuario en su espalda. Fecha: siglo IX-X.",
+    "etiquetas": ["escultura", "religioso", "mitología"],
+    "imagen": "img_20.jpeg",
+    "modelo_3d": "model_20.glb"
+  },
+  {
+    "id": 21,
+    "nombre": "Capitel de columna",
+    "descripcion": "...",
+    "etiquetas": ["escultura", "utilitario"],
+    "imagen": "img_21.jpeg",
+    "modelo_3d": "model_21.glb"
+  },
+  {
+    "id": 22,
+    "nombre": "Cabeza de Luzira",
+    "descripcion": "Cabeza de terracota hueca con decoración aplicada. Podría representar a un médium espiritual.",
+    "etiquetas": ["escultura", "cerámica", "religioso"],
+    "imagen": "img_22.jpeg",
+    "modelo_3d": "model_22.glb"
+  },
+  {
+    "id": 23,
+    "nombre": "Puerta falsa de Ptahshepses",
+    "descripcion": "Puerta falsa de caliza con inscripciones biográficas de Ptahshepses, que describe su carrera bajo varios reyes de la Quinta Dinastía.",
+    "etiquetas": ["escritura", "Egipto", "histórico"],
+    "imagen": "img_23.jpeg",
+    "modelo_3d": "model_23.glb"
+  },
+  {
+    "id": 24,
+    "nombre": "Losa de tambor del estupa de Amaravati",
+    "descripcion": "Relieves que representan eventos del nacimiento de Buda. Altura: 157.5 cm.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_24.jpeg",
+    "modelo_3d": "model_24.glb"
+  },
+  {
+    "id": 25,
+    "nombre": "León guardián de Amaravati",
+    "descripcion": "León tallado en caliza ('mármol Palnad'), siglo II a.C. Altura: 105 cm.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_25.jpeg",
+    "modelo_3d": "model_25.glb"
+  },
+  {
+    "id": 26,
+    "nombre": "Pilar de barandilla del estupa de Amaravati",
+    "descripcion": "Sección inferior de un pilar octogonal con relieves de leones y estupas. Altura: 2.555 metros.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_26.jpeg",
+    "modelo_3d": "model_26.glb"
+  },
+  {
+    "id": 27,
+    "nombre": "Relieve de yeso",
+    "descripcion": "Panel de yeso con espíritu protector con cabeza de águila. Período neoasirio, 865-860 a.C. Altura: 129 cm.",
+    "etiquetas": ["escultura", "religioso", "Mesopotamia"],
+    "imagen": "img_27.jpeg",
+    "modelo_3d": "model_27.glb"
+  },
+  {
+    "id": 28,
+    "nombre": "Pilar de barandilla",
+    "descripcion": "Pilar tallado con medallones de loto y relieves narrativos budistas.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_28.jpeg",
+    "modelo_3d": "model_28.glb"
+  },
+  {
+    "id": 29,
+    "nombre": "Alejandro Magno",
+    "descripcion": "Cabeza de retrato en mármol de Alejandro Magno, adaptada para un cuerpo separado.",
+    "etiquetas": ["escultura", "histórico"],
+    "imagen": "img_29.jpeg",
+    "modelo_3d": "model_29.glb"
+  },
+  {
+    "id": 30,
+    "nombre": "Figura sentada de Horus en caliza",
+    "descripcion": "Horus vestido con traje militar romano; rastros de pintura. Siglo I-III d.C.",
+    "etiquetas": ["escultura", "religioso", "Egipto"],
+    "imagen": "img_30.jpeg",
+    "modelo_3d": "model_30.glb"
+  },
+  {
+    "id": 31,
+    "nombre": "Eje de cruz anglosajón de Sheffield",
+    "descripcion": "Eje de cruz de arenisca del siglo IX d.C., decorado con motivos de vid y un arquero.",
+    "etiquetas": ["religioso", "histórico"],
+    "imagen": "img_31.jpeg",
+    "modelo_3d": "model_31.glb"
+  },
+  {
+    "id": 32,
+    "nombre": "Escultura de vaca llorando",
+    "descripcion": "Réplica 3D inspirada en el arte rupestre de Argelia. Diseñada para visitantes con discapacidad visual.",
+    "etiquetas": ["modelo", "histórico"],
+    "imagen": "img_32.jpeg",
+    "modelo_3d": "model_32.glb"
+  },
+  {
+    "id": 33,
+    "nombre": "Estatua de Nereida",
+    "descripcion": "Estatua de mármol de una figura femenina corriendo, probablemente una Nereida.",
+    "etiquetas": ["escultura", "mitología"],
+    "imagen": "img_33.jpeg",
+    "modelo_3d": "model_33.glb"
+  },
+  {
+    "id": 34,
+    "nombre": "Marco Aurelio",
+    "descripcion": "Busto de mármol del emperador Marco Aurelio con capa con flecos.",
+    "etiquetas": ["escultura", "histórico"],
+    "imagen": "img_34.jpeg",
+    "modelo_3d": "model_34.glb"
+  },
+  {
+    "id": 35,
+    "nombre": "Ramsés II",
+    "descripcion": "...",
+    "etiquetas": ["escultura", "Egipto", "histórico"],
+    "imagen": "img_35.jpeg",
+    "modelo_3d": "model_35.glb"
+  },
+  {
+    "id": 36,
+    "nombre": "Buda predicando",
+    "descripcion": "Buda sentado en posición de enseñanza, con detalles únicos en su túnica.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_36.jpeg",
+    "modelo_3d": "model_36.glb"
+  },
+  {
+    "id": 37,
+    "nombre": "Estatua de un sacerdote",
+    "descripcion": "Parte superior de una estatua colosal de un hombre barbudo, posiblemente un sacerdote. Altura: 1.04 m.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_37.jpeg",
+    "modelo_3d": "model_37.glb"
+  },
+  {
+    "id": 38,
+    "nombre": "Estatua de Sekhmet",
+    "descripcion": "Estatua sentada de granodiorita de Sekhmet; mano derecha dañada. Altura: 165 cm.",
+    "etiquetas": ["escultura", "religioso", "Egipto"],
+    "imagen": "img_38.jpeg",
+    "modelo_3d": "model_38.glb"
+  },
+  {
+    "id": 39,
+    "nombre": "Virgen con niño",
+    "descripcion": "Representación en alabastro policromado de la Virgen y el Niño. Altura: 75 cm.",
+    "etiquetas": ["escultura", "religioso"],
+    "imagen": "img_39.jpeg",
+    "modelo_3d": "model_39.glb"
+  },
+  {
+    "id": 40,
+    "nombre": "Estatua sentada de Amenhotep III",
+    "descripcion": "Del templo mortuorio de Amenhotep III, Tebas. Dinastía XVIII, 1350 a.C.",
+    "etiquetas": ["escultura", "Egipto", "histórico"],
+    "imagen": "img_40.jpeg",
+    "modelo_3d": "model_40.glb"
+  },
+  {
+    "id": 41,
+    "nombre": "Busto colosal de mármol de Zeus",
+    "descripcion": "130-150 d.C. (aprox.). Altura: 110 cm. Procedente de la Villa Adriana, Tívoli.",
+    "etiquetas": ["escultura", "mitología", "histórico"],
+    "imagen": "img_41.jpeg",
+    "modelo_3d": "model_41.glb"
+  },
+  {
+    "id": 42,
+    "nombre": "León de granito rojo de Amenhotep III",
+    "descripcion": "Originalmente del Templo de Soleb en Nubia. Parte de un par llamado 'Leones de Prudhoe'.",
+    "etiquetas": ["escultura", "Egipto", "histórico"],
+    "imagen": "img_42.jpeg",
+    "modelo_3d": "model_42.glb"
+  }
+]

@@ -1,0 +1,102 @@
+body {
+    background-color: #141414;
+    color: white;
+  }
+  
+  .login-container {
+    background-color: #000;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-control {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    color: white;
+  }
+  
+  .form-control:focus {
+    background-color: #1f1f1f;
+    color: white;
+    border-color: #dc3545;
+    box-shadow: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  a {
+    color: #dc3545;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+/* Fondo translúcido oscuro */
+#cuentas-popup {
+  position: fixed;
+  z-index: 1050;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Centrado del diálogo */
+#cuentas-popup .modal-dialog {
+  max-width: 400px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Contenedor del modal (modo oscuro) */
+#cuentas-popup .modal-content {
+  background-color: #1f1f1f;
+  border-radius: 0.75rem;
+  color: white;
+  border: 1px solid #333;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+/* Encabezado */
+#cuentas-popup .modal-header {
+  border-bottom: 1px solid #333;
+  background-color: #141414;
+  color: white;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+/* Lista de botones de cuentas */
+#lista-cuentas {
+  margin-top: 1rem;
+}
+
+#lista-cuentas button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #1f1f1f;
+  color: white;
+  font-weight: 500;
+}
+
+#lista-cuentas button:hover {
+  background-color: #292929;
+  transform: scale(1.02);
+  color: white;
+}

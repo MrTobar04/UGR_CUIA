@@ -1,0 +1,94 @@
+/* static/css/quiz.css */
+
+/* Reset de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo general oscuro */
+body {
+  background-color: #141414;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.quiz-container {
+  max-width: 600px;
+}
+
+/* Tarjeta de pregunta */
+.quiz-container .card {
+  border: none;
+  border-radius: 8px;
+}
+
+/* Título de la pregunta */
+#question {
+  color: #e5e5e5;
+}
+
+/* Estilos de opciones */
+.form-check-input:checked + .form-check-label {
+  color: #e50914; /* color rojo Netflix */
+  font-weight: bold;
+}
+
+/* Botones */
+.btn-danger {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+.btn-danger:hover {
+  background-color: #f6121d;
+  border-color: #f6121d;
+}
+.btn-outline-light {
+  color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+.btn-outline-light:hover {
+  background-color: rgba(229,229,229,0.1);
+}
+
+/* Botón enviado */
+#submit-btn {
+  min-width: 120px;
+}
+
+/* Resultado */
+#result.correct {
+  color: #46d369;
+}
+#result.incorrect {
+  color: #ff4040;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .quiz-container {
+    padding: 0 1rem;
+  }
+}
+
+
+     #btn-microfono {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1050; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

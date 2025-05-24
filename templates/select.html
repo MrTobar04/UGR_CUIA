@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Verificar token  -->
+  <script src="static/js/verificarToken.js" defer></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detalle del Elemento - Museo Virtual</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/home.css" />
+  <!-- Importa model-viewer para mostrar modelos 3D -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div id="navbar">
+  </div>
+
+  
+<!-- Banner de bienvenida -->
+<div id="welcome-banner" class="alert alert-success text-center fw-bold shadow-lg" role="alert"></div>
+
+
+
+<div id="loadingScreen" style="display: none; position: absolute; z-index: 1000; background: rgba(0,0,0,0.6); color: white; top: 0; left: 0; right: 0; bottom: 0; display: flex; justify-content: center; align-items: center;">
+  <p>Cargando...</p>
+
+
+</div>
+
+    <!-- Espaciador -->
+    <div style="height: 70px;"></div>
+
+    <!-- Vista del Modelo 3D y la Imagen AR -->
+    <div class="d-flex flex-column justify-content-center align-items-center" style="min-height: 80vh;">
+      <div style="position: relative; width: 100%; max-width: 600px; height: 500px;">
+
+        <!-- Modelo 3D -->
+        <model-viewer id="model-viewer" src="" alt="Modelo 3D del objeto" auto-rotate camera-controls
+          shadow-intensity="1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </model-viewer>
+
+        <!-- Imagen AR (oculta al inicio) -->
+        <div id="ar-viewer" class="d-none" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+          <img id="ar-image" style="width: 100%; height: 100%; object-fit: contain; background: black;"
+            alt="Vista AR" />
+        </div>
+
+        <!-- Botón para cambiar entre Model 3D / AR -->
+        <button id="btn-ar"
+          class="btn btn-outline-light position-absolute bottom-0 end-0 m-3 rounded-pill px-4 py-2 shadow">
+          <i class="bi bi-camera"></i> Ver en AR
+        </button>
+
+      </div>
+
+          <!-- Checkbox "Ver a escala" -->
+          <div id="divVerEscala" class="form-check mb-3" style="display: none;">
+            <input class="form-check-input custom-checkbox" type="checkbox" id="verEscala">
+            <label class="form-check-label text-danger" for="verEscala">
+              Ver a escala
+            </label>
+          </div>
+
+      <!-- Texto descriptivo -->
+      <h2 id="nombre-objeto" class="mt-4 text-danger fw-bold text-center">Cargando...</h2>
+      <p id="descripcion-objeto" class="text-white text-center px-3" style="max-width: 700px;">
+        Cargando descripción...
+      </p>
+
+ 
+
+      <!-- Botón "Añadir a Favoritos" -->
+      <button id="btn-favorito" class="btn btn-danger rounded-pill px-4 py-2 shadow mt-3 d-flex align-items-center"
+        style="font-weight: bold;">
+        <i class="bi bi-heart-fill me-2"></i> Añadir a Favoritos
+      </button>
+
+
+      <!-- Elementos Similares -->
+      <div class="container mb-5">
+
+        <h3 class="text-white mb-4">Elementos Similares</h3>
+        <!-- Grid de otras obras -->
+        <div class="position-relative">
+          <button id="scroll-left-similares" class="scroll-btn left">&#10094;</button>
+
+          <div id="gridObras" class="d-flex overflow-auto scroll-container gap-3 px-2"></div>
+
+          <button id="scroll-right-similares" class="scroll-btn right">&#10095;</button>
+        </div>
+
+      </div>
+
+
+
+      <!-- Elementos Recomendaciones -->
+      <div class="container mb-5">
+
+        <h3 class="text-white mb-4">Recomendaciones para ti</h3>
+        <!-- Grid de otras obras -->
+        <div class="position-relative">
+          <button id="scroll-left-recomendaciones" class="scroll-btn left">&#10094;</button>
+
+          <div id="gridRecomendaciones" class="d-flex overflow-auto scroll-container gap-3 px-2"></div>
+
+          <button id="scroll-right-recomendaciones" class="scroll-btn right">&#10095;</button>
+        </div>
+
+      </div>
+
+      <!-- Botón flotante de micrófono -->
+      <button id="btn-microfono" class="btn btn-success rounded-circle shadow" title="Hablar">
+        <i id="icono-microfono" class="bi bi-mic-fill fs-4 text-white"></i>
+      </button>
+
+      <!-- Footer -->
+      <footer class="text-center mt-5 p-4 footer">
+        <p class="mb-0">&copy; 2025 Museo Virtual. Todos los derechos reservados.</p>
+      </footer>
+
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="static/js/select.js"></script>
+      <script src="static/js/navbar.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.media-frame {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .media-frame:hover {
+    transform: scale(1.02);
+  }
+  
+  #preview {
+    display: none;
+  }
+  

@@ -1,0 +1,19 @@
+# Ignorar archivos compilados
+*.class
+
+# Ignorar carpetas
+/_pycache_/
+static/src/3dmodels/**
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración local
+.env
+config/local.json
+server.js
+UI.exe
+openssl.cnf
+cert.pem
+key.pem

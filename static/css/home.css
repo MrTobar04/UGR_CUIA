@@ -1,0 +1,159 @@
+body {
+    background-color: #141414;
+    color: white;
+  }
+  
+  .navbar {
+    background-color: #000;
+  }
+  
+  .hero-banner {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+  }
+   
+  
+  .art-grid-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .footer {
+    background-color: #000;
+    color: #ccc;
+  }
+  
+
+  .scroll-container {
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .art-grid-card {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    background-color: #333;
+    transition: transform 0.3s;
+  }
+  
+  
+  .art-grid-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    z-index: 10;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .scroll-btn.left {
+    left: 0;
+  }
+  
+  .scroll-btn.right {
+    right: 0;
+  }
+  
+  #btn-microfono {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1050; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .fila-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 140px;
+  }
+  .card img {
+    height: 120px;
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%;
+    }
+    .fila-tarjetas {
+      flex-wrap: wrap; /* En pantallas pequeñas permite varias filas */
+    }
+  }
+
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+
+  .card-title {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+#welcome-banner {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, top 0.5s ease-in-out;
+  max-width: 90%;
+  width: 500px;
+  display: none;
+}
+#welcome-banner.show {
+  display: block;
+  opacity: 1;
+  top: 100px;
+}
+
+
+  .custom-checkbox {
+    accent-color: red;
+  }
+
+
+  

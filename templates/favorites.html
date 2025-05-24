@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Verificar token  -->
+  <script src="static/js/verificarToken.js" defer></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Museo Virtual</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/home.css">
+</head>
+<body>
+
+ <!-- Navbar -->
+ <div id="navbar">
+ </div>
+
+  <!-- Espacio para compensar el navbar fijo -->
+  <div style="height: 70px;"></div>
+
+
+
+   <!-- Grid de otras obras -->
+   <div class="container mb-5">
+    <h2 id="Explora" class="text-white mb-3">Tus Favoritos</h2>
+    <div class="row g-3" id="gridObras">
+      <!-- Aquí se cargarán dinámicamente las obras -->
+    </div>
+  </div>
+  
+  <!-- Botón flotante de micrófono -->
+  <button id="btn-microfono" class="btn btn-success rounded-circle shadow" title="Hablar">
+    <i id="icono-microfono" class="bi bi-mic-fill fs-4 text-white"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 p-4 footer">
+    <p class="mb-0">&copy; 2025 Museo Virtual. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/favorites.js"></script>
+  <script src="static/js/navbar.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,705 @@
+[
+  {
+    "id": 1,
+    "etiquetas": ["escultura", "religioso", "Egipto"],
+    "pregunta": "¿De qué material está hecha la Figura fragmentaria de basalto verde?",
+    "opciones": ["Basalto", "Granito", "Diorita", "Mármol"],
+    "respuesta": "Basalto"
+  },
+  {
+    "id": 2,
+    "etiquetas": ["Mesopotamia", "escritura", "histórico"],
+    "pregunta": "¿En qué idioma está inscrita la Tabla de arcilla con cuatro y cinco líneas de inscripción?",
+    "opciones": ["Cuneiforme", "Jeroglífico", "Griego antiguo", "Latín"],
+    "respuesta": "Cuneiforme"
+  },
+  {
+    "id": 3,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Cuántas líneas de texto contiene la Tabla de arcilla con cuatro y cinco líneas de inscripción?",
+    "opciones": ["Cinco", "Cuatro", "Seis", "Tres"],
+    "respuesta": "Cinco"
+  },
+  {
+    "id": 4,
+    "etiquetas": ["Mesopotamia", "ciencia antigua", "astronomía"],
+    "pregunta": "¿Qué objeto celeste registra la Tabla cuneiforme astronómica?",
+    "opciones": ["La Luna", "El Sol", "Saturno", "Júpiter"],
+    "respuesta": "La Luna"
+  },
+  {
+    "id": 5,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Cuál era el uso principal de las Lámparas romanas de cerámica?",
+    "opciones": ["Iluminación", "Almacenamiento", "Decoración", "Medición"],
+    "respuesta": "Iluminación"
+  },
+  {
+    "id": 6,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué escena decora la Loza del Estanque de peces?",
+    "opciones": ["Peces nadando", "Escena de batalla", "Cosecha de cereales", "Ritual religioso"],
+    "respuesta": "Peces nadando"
+  },
+  {
+    "id": 7,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué práctica adivinatoria figura en la tabla fragmentaria de extispicina?",
+    "opciones": ["Lectura de hígado", "Interpretación de sueños", "Lectura de hojas", "Astrología"],
+    "respuesta": "Lectura de hígado"
+  },
+  {
+    "id": 8,
+    "etiquetas": ["escultura", "religioso", "Egipto", "mitología"],
+    "pregunta": "¿A qué diosa representa la Figura fragmentaria de basalto verde?",
+    "opciones": ["Isis-Serqet", "Hathor", "Bastet", "Nut"],
+    "respuesta": "Isis-Serqet"
+  },
+  {
+    "id": 9,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué tipo de embarcación muestra el Modelo de barco de arcilla cocida?",
+    "opciones": ["Barco mercante", "Barco ceremonial", "Barco de pesca", "Barco de guerra"],
+    "respuesta": "Barco ceremonial"
+  },
+  {
+    "id": 10,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Quién envió la Carta de Nanni a Ea-nasir?",
+    "opciones": ["Nanni", "Ea-nasir", "Hammurabi", "Sin-Leqi-unninni"],
+    "respuesta": "Nanni"
+  },
+  {
+    "id": 11,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Cuál era el tema principal de la Carta de Nanni a Ea-nasir?",
+    "opciones": ["Calidad del cobre", "Precio del grano", "Asuntos religiosos", "Límites de territorio"],
+    "respuesta": "Calidad del cobre"
+  },
+  {
+    "id": 12,
+    "etiquetas": ["cartografía", "histórico", "Mesopotamia"],
+    "pregunta": "¿Qué muestra la Tabla del mapa del mundo?",
+    "opciones": ["El mundo conocido", "Constelaciones", "Rutas comerciales", "Calendario agrícola"],
+    "respuesta": "El mundo conocido"
+  },
+  {
+    "id": 13,
+    "etiquetas": ["astronomía", "Mesopotamia", "ciencia antigua"],
+    "pregunta": "¿Qué año registra la Tabla cuneiforme astronómica?",
+    "opciones": ["523/522 a.C.", "600 a.C.", "400 a.C.", "700 a.C."],
+    "respuesta": "523/522 a.C."
+  },
+  {
+    "id": 14,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿De qué material están hechas las Lámparas romanas de cerámica?",
+    "opciones": ["Cerámica", "Metal", "Vidrio", "Piedra"],
+    "respuesta": "Cerámica"
+  },
+  {
+    "id": 15,
+    "etiquetas": ["Escultura", "histórico"],
+    "pregunta": "¿En qué contexto religioso se depositaban las Figuras votivas de diorita?",
+    "opciones": ["Templos", "Tumbas", "Mercados", "Plazas públicas"],
+    "respuesta": "Templos"
+  },
+  {
+    "id": 16,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Cómo se fabricó el Modelo de barco de arcilla cocida?",
+    "opciones": ["A mano", "Con moldes", "Impresión en relieve", "Tallado"],
+    "respuesta": "A mano"
+  },
+  {
+    "id": 17,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué administraban las cinco líneas de la Tabla de arcilla de Ur?",
+    "opciones": ["Raciones", "Oraciones", "Multas", "Leyes"],
+    "respuesta": "Raciones"
+  },
+  {
+    "id": 18,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué elemento mitológico aparece alrededor de la Tabla del mapa del mundo?",
+    "opciones": ["Tierras mitológicas", "Dioses griegos", "Ríos actuales", "Animales reales"],
+    "respuesta": "Tierras mitológicas"
+  },
+  {
+    "id": 19,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Cuál es el propósito principal de la Tabla cuneiforme astronómica?",
+    "opciones": ["Registrar fases lunares", "Calcular impuestos", "Narrar mitos", "Registrar contactos comerciales"],
+    "respuesta": "Registrar fases lunares"
+  },
+  {
+    "id": 20,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué combustible usaban las Lámparas romanas de cerámica?",
+    "opciones": ["Aceite vegetal", "Carbón", "Gas", "Cera"],
+    "respuesta": "Aceite vegetal"
+  },
+  {
+    "id": 21,
+    "etiquetas": ["escultura", "religioso", "mitología"],
+    "pregunta": "¿Qué simboliza la diosa Isis-Serqet en la cultura egipcia?",
+    "opciones": ["Protección y sanación", "Guerrera", "Cosecha", "Justicia"],
+    "respuesta": "Protección y sanación"
+  },
+  {
+    "id": 22,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué forma de escritura se utiliza en la pequeña Tabla de arcilla de Ur?",
+    "opciones": ["Cuneiforme", "Hierática", "Arameo", "Fenicio"],
+    "respuesta": "Cuneiforme"
+  },
+  {
+    "id": 23,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿A qué periodo cronológico pertenece la Tabla de arcilla con cuatro columnas de inscripción?",
+    "opciones": ["III dinastía de Ur", "Imperio acadio", "Imperio asirio", "Periodo paleolítico"],
+    "respuesta": "III dinastía de Ur"
+  },
+  {
+    "id": 24,
+    "etiquetas": ["cartografía"],
+    "pregunta": "¿Cómo orientaban el norte en la Tabla del mapa del mundo?",
+    "opciones": ["Hacia la parte superior", "Hacia la derecha", "Hacia la parte inferior", "Hacia la izquierda"],
+    "respuesta": "Hacia la parte superior"
+  },
+  {
+    "id": 25,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Quién pudo haber utilizado la Tabla cuneiforme astronómica para predecir eclipses?",
+    "opciones": ["Sacerdotes–astrónomos", "Comerciantes", "Soldados", "Agricultores"],
+    "respuesta": "Sacerdotes–astrónomos"
+  },
+  {
+    "id": 26,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué parte de la lámpara romana estaba diseñada para regular el flujo de aceite?",
+    "opciones": ["La boquilla", "El asa", "La base", "El cuerpo"],
+    "respuesta": "La boquilla"
+  },
+  {
+    "id": 27,
+    "etiquetas": ["escultura", "religioso"],
+    "pregunta": "¿Cuál es la función de las Figuras votivas de diorita en el templo?",
+    "opciones": ["Representar al donante en oración", "Servir de moneda", "Marcar límites", "Iluminar el interior"],
+    "respuesta": "Representar al donante en oración"
+  },
+  {
+    "id": 28,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué rasgo ornamental caracteriza al Modelo de barco de arcilla cocida?",
+    "opciones": ["Relieves tallados", "Pintura esmaltada", "Incrustaciones metálicas", "Policromía"],
+    "respuesta": "Relieves tallados"
+  },
+  {
+    "id": 29,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué institución controlaba la producción de tablillas como la Tabla de arcilla de Ur?",
+    "opciones": ["El palacio real", "Las escuelas", "Los gremios artesanales", "Las caravanas comerciales"],
+    "respuesta": "El palacio real"
+  },
+  {
+    "id": 30,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué ciudad mesopotámica aparece en el centro de la Tabla del mapa del mundo?",
+    "opciones": ["Babilonia", "Uruk", "Nippur", "Eridu"],
+    "respuesta": "Babilonia"
+  },
+  {
+    "id": 31,
+    "etiquetas": ["astronomía"],
+    "pregunta": "¿Qué aspecto del cielo mide la Tabla cuneiforme astronómica?",
+    "opciones": ["Fases de la Luna", "Movimiento de aves", "Condiciones meteorológicas", "Migración animal"],
+    "respuesta": "Fases de la Luna"
+  },
+  {
+    "id": 32,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué elemento decorativo aparece en la base de las Lámparas romanas de cerámica?",
+    "opciones": ["Anillas", "Estrellas", "Palmáceas", "Brazaletes"],
+    "respuesta": "Anillas"
+  },
+  {
+    "id": 33,
+    "etiquetas": ["escultura", "Egipto"],
+    "pregunta": "¿En qué museo se encuentra habitualmente la Figura fragmentaria de basalto verde?",
+    "opciones": ["Museo Nacional de Arqueología", "Museo del Louvre", "Museo Británico", "Metropolitan Museum"],
+    "respuesta": "Museo Británico"
+  },
+  {
+    "id": 34,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué herramienta se usaba para grabar la arcilla en las tablillas mesopotámicas?",
+    "opciones": ["Cálamo", "Pincel", "Buril", "Punzón de caña"],
+    "respuesta": "Punzón de caña"
+  },
+  {
+    "id": 35,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Cuál fue la función económica principal de las Tablas de arcilla con inscripciones?",
+    "opciones": ["Registro de bienes", "Texto poético", "Tratado político", "Calendario religioso"],
+    "respuesta": "Registro de bienes"
+  },
+  {
+    "id": 36,
+    "etiquetas": ["cartografía"],
+    "pregunta": "¿Qué leyenda textual acompaña a la Tabla del mapa del mundo?",
+    "opciones": ["Explicación de regiones", "Mitos de creación", "Calendario lunar", "Códigos legales"],
+    "respuesta": "Explicación de regiones"
+  },
+  {
+    "id": 37,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué precisión alcanzaban las observaciones de la Tabla cuneiforme astronómica?",
+    "opciones": ["Días fraccionales", "Minutos exactos", "Horas enteras", "Segundos"],
+    "respuesta": "Horas enteras"
+  },
+  {
+    "id": 38,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué pieza de la lámpara romana servía para transportarla con seguridad?",
+    "opciones": ["El asa", "La boquilla", "El pie", "La tapa"],
+    "respuesta": "El asa"
+  },
+  {
+    "id": 39,
+    "etiquetas": ["escultura", "religioso"],
+    "pregunta": "¿Qué postura suelen adoptar las Figuras votivas de diorita?",
+    "opciones": ["Manos juntas en oración", "Brazos extendidos", "Sentadas", "Corriendo"],
+    "respuesta": "Manos juntas en oración"
+  },
+  {
+    "id": 40,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué función ritual tenía el Modelo de barco de arcilla cocida?",
+    "opciones": ["Ofrecerse a los dioses", "Medir profundidades", "Comprar cereales", "Documentar accidentes náuticos"],
+    "respuesta": "Ofrecerse a los dioses"
+  },
+  {
+    "id": 41,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué deterioro es común en las Tablas de arcilla antiguas?",
+    "opciones": ["Esquinas astilladas", "Desprendimiento de pintura", "Oxidación metálica", "Desintegración orgánica"],
+    "respuesta": "Esquinas astilladas"
+  },
+  {
+    "id": 42,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué elemento marca los límites del mundo conocido en la Tabla del mapa del mundo?",
+    "opciones": ["Un círculo", "Un cuadrado", "Una línea ondulada", "Un triángulo"],
+    "respuesta": "Un círculo"
+  },
+  {
+    "id": 43,
+    "etiquetas": ["astronomía"],
+    "pregunta": "¿Qué fenómeno natural se anota en la Tabla cuneiforme astronómica además de las fases lunares?",
+    "opciones": ["Eclipses", "Tormentas", "Inundaciones", "Migración de aves"],
+    "respuesta": "Eclipses"
+  },
+  {
+    "id": 44,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué diseño guardaba simetría radial en la Lámpara romana de cerámica?",
+    "opciones": ["La base", "El asa", "La boquilla", "El cuerpo principal"],
+    "respuesta": "La base"
+  },
+  {
+    "id": 45,
+    "etiquetas": ["escultura", "Egipto"],
+    "pregunta": "¿Qué fragmento de la Figura fragmentaria de basalto verde suele faltar?",
+    "opciones": ["La base", "La cabeza", "Los brazos", "El pecho"],
+    "respuesta": "La base"
+  },
+  {
+    "id": 46,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué signo cuneiforme indica la palabra 'rey' en la tablilla?",
+    "opciones": ["LUGAL", "EN", "DINGIR", "KUR"],
+    "respuesta": "LUGAL"
+  },
+  {
+    "id": 47,
+    "etiquetas": ["cartografía"],
+    "pregunta": "¿Qué nombre recibe la región exterior al círculo de la Tabla del mapa del mundo?",
+    "opciones": ["Miti-matu", "Kissi-matu", "Shamash-matu", "Nissaba-matu"],
+    "respuesta": "Miti-matu"
+  },
+  {
+    "id": 48,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué instrumento pueden haber usado junto a la Tabla cuneiforme astronómica?",
+    "opciones": ["Gnomon", "Astrolabio", "Telescopio", "Barómetro"],
+    "respuesta": "Gnomon"
+  },
+  {
+    "id": 49,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué parte de la Lámpara romana evitaba derrames de aceite?",
+    "opciones": ["El borde saliente", "El asa", "La boquilla", "El pie"],
+    "respuesta": "El borde saliente"
+  },
+  {
+    "id": 50,
+    "etiquetas": ["escultura", "religioso", "mitología"],
+    "pregunta": "¿Qué atributo sostiene la Figura fragmentaria de basalto verde para identificarse?",
+    "opciones": ["Un cetro", "Una espiga", "Un escudo", "Un rollo"],
+    "respuesta": "Un cetro"
+  },
+  {
+    "id": 51,
+    "etiquetas": ["escultura", "Egipto", "religioso"],
+    "pregunta": "¿En qué material está tallada la Figura fragmentaria de la diosa Isis-Serqet?",
+    "opciones": ["Basalto verde", "Granito rojo", "Caliza blanca", "Mármol gris"],
+    "respuesta": "Basalto verde"
+  },
+  {
+    "id": 52,
+    "etiquetas": ["escultura", "religioso", "Mesopotamia"],
+    "pregunta": "¿De qué piedra está hecha la Figura votiva de la Tercera Dinastía de Ur?",
+    "opciones": ["Diorita", "Basalto", "Calcita", "Arcilla cocida"],
+    "respuesta": "Diorita"
+  },
+  {
+    "id": 53,
+    "etiquetas": ["Mesopotamia", "escritura", "histórico"],
+    "pregunta": "¿Cuál es la longitud aproximada de la Tabla de arcilla con cuatro líneas de inscripción?",
+    "opciones": ["15 cm", "30 cm", "5 cm", "50 cm"],
+    "respuesta": "15 cm"
+  },
+  {
+    "id": 54,
+    "etiquetas": ["Mesopotamia", "escritura", "histórico"],
+    "pregunta": "¿Cuántos caracteres cuneiformes contiene la pequeña Tabla de arcilla de Ur?",
+    "opciones": ["120", "75", "200", "45"],
+    "respuesta": "75"
+  },
+  {
+    "id": 55,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué funcionario aparece mencionado en la Carta de Nanni a Ea-nasir?",
+    "opciones": ["Ea-nasir", "Gudea", "Hammurabi", "Ur-Nammu"],
+    "respuesta": "Ea-nasir"
+  },
+  {
+    "id": 56,
+    "etiquetas": ["astronomía", "Mesopotamia", "ciencia antigua"],
+    "pregunta": "¿Qué fase lunar registra la Tabla cuneiforme astronómica?",
+    "opciones": ["Luna nueva", "Luna llena", "Cuarto creciente", "Cuarto menguante"],
+    "respuesta": "Luna llena"
+  },
+  {
+    "id": 57,
+    "etiquetas": ["cartografía", "Mesopotamia", "histórico"],
+    "pregunta": "¿Qué forma geométrica define el perímetro de la Tabla del mapa del mundo?",
+    "opciones": ["Círculo", "Cuadrado", "Triángulo", "Óvalo"],
+    "respuesta": "Círculo"
+  },
+  {
+    "id": 58,
+    "etiquetas": ["transporte", "modelo", "Mesopotamia"],
+    "pregunta": "¿Qué característica identifica al Modelo de barco de arcilla cocida como ceremonial?",
+    "opciones": ["Miniatura", "Tamaño real", "Pintura dorada", "Ausencia de mástil"],
+    "respuesta": "Miniatura"
+  },
+  {
+    "id": 59,
+    "etiquetas": ["utilitario", "cerámica", "histórico"],
+    "pregunta": "¿Para qué se utilizaban las Lámparas romanas de cerámica en los hogares?",
+    "opciones": ["Iluminación nocturna", "Almacenar aceite", "Cocinar alimentos", "Regar plantas"],
+    "respuesta": "Iluminación nocturna"
+  },
+  {
+    "id": 60,
+    "etiquetas": ["cerámica", "utilitario"],
+    "pregunta": "¿Qué rasgo técnico permite identificar las Lámparas romanas de cerámica como de producción masiva?",
+    "opciones": ["Moldeadas en serie", "Talladas a mano", "Fundidas en metal", "Pintadas a mano"],
+    "respuesta": "Moldeadas en serie"
+  },
+  {
+    "id": 61,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué animal aparece más frecuentemente en la decoración de la Loza del Estanque de peces?",
+    "opciones": ["Peces", "Aves", "Ciervos", "Perros"],
+    "respuesta": "Peces"
+  },
+  {
+    "id": 62,
+    "etiquetas": ["Mesopotamia", "ciencia antigua", "astronomía"],
+    "pregunta": "¿Qué propósito principal tenía la Tabla cuneiforme astronómica?",
+    "opciones": ["Predecir eclipses", "Medir distancias", "Registrar comercio", "Calcular impuestos"],
+    "respuesta": "Predecir eclipses"
+  },
+  {
+    "id": 63,
+    "etiquetas": ["Mesopotamia", "escritura", "histórico"],
+    "pregunta": "¿Qué tipo de documento es la Tabla fragmentaria de extispicina?",
+    "opciones": ["Manual de adivinación", "Contrato comercial", "Registro de impuestos", "Poema épico"],
+    "respuesta": "Manual de adivinación"
+  },
+  {
+    "id": 64,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿En qué centuria se data la Carta de Nanni a Ea-nasir?",
+    "opciones": ["XX a.C.", "XIX a.C.", "XVIII a.C.", "XXI a.C."],
+    "respuesta": "XX a.C."
+  },
+  {
+    "id": 65,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué región mitológica rodea el círculo exterior de la Tabla del mapa del mundo?",
+    "opciones": ["Miti-matu", "Hatti-matu", "Kassu-matu", "Sutu-matu"],
+    "respuesta": "Miti-matu"
+  },
+  {
+    "id": 66,
+    "etiquetas": ["escultura", "religioso", "mitología"],
+    "pregunta": "¿Qué atributo simbólico sostiene la Figura fragmentaria de Isis-Serqet?",
+    "opciones": ["Cetro", "Anj", "Corona", "Cruz ansada"],
+    "respuesta": "Anj"
+  },
+  {
+    "id": 67,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué instrumento utilizaban para grabar cuneiforme sobre arcilla blanda?",
+    "opciones": ["Punzón de caña", "Pincel de pelo", "Buril de piedra", "Cincel de metal"],
+    "respuesta": "Punzón de caña"
+  },
+  {
+    "id": 68,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué unidad de tiempo se anotaba en la Tabla cuneiforme astronómica?",
+    "opciones": ["Día", "Hora", "Minuto", "Segundo"],
+    "respuesta": "Hora"
+  },
+  {
+    "id": 69,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué detalle estructural falta en el Modelo de barco de arcilla cocida?",
+    "opciones": ["Mástil", "Proa decorada", "Popa elevada", "Cubierta"],
+    "respuesta": "Mástil"
+  },
+  {
+    "id": 70,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Cómo cerraban la boquilla de las Lámparas romanas de cerámica para conservar el aceite?",
+    "opciones": ["Tapón de arcilla", "Cinta de cuero", "Tapa metálica", "Hoja de papiro"],
+    "respuesta": "Tapón de arcilla"
+  },
+  {
+    "id": 71,
+    "etiquetas": ["escultura", "Egipto", "mitología"],
+    "pregunta": "¿Qué rol tenía la diosa Isis-Serqet en la mitología egipcia?",
+    "opciones": ["Guardiana de difuntos", "Diosa del amor", "Diosa de la guerra", "Diosa de la cosecha"],
+    "respuesta": "Guardiana de difuntos"
+  },
+  {
+    "id": 72,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué fragmento comúnmente falta en las tablillas cuneiformes antiguas?",
+    "opciones": ["Esquinas", "Centro", "Bordes decorados", "Superficie lisa"],
+    "respuesta": "Esquinas"
+  },
+  {
+    "id": 73,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué ciudad se representa en el centro de la Tabla del mapa del mundo?",
+    "opciones": ["Babilonia", "Ur", "Nippur", "Lagash"],
+    "respuesta": "Babilonia"
+  },
+  {
+    "id": 74,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué otro fenómeno celeste se anota en la Tabla cuneiforme astronómica?",
+    "opciones": ["Eclipses lunares", "Lluvia de meteoros", "Auroras", "Cometas"],
+    "respuesta": "Eclipses lunares"
+  },
+  {
+    "id": 75,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué simboliza el signo DINGIR en la escritura cuneiforme?",
+    "opciones": ["Dios", "Rey", "Tierra", "Agua"],
+    "respuesta": "Dios"
+  },
+  {
+    "id": 76,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué característica facilita el transporte de las Lámparas romanas de cerámica?",
+    "opciones": ["Asa lateral", "Base ancha", "Cuerpo plano", "Boquilla larga"],
+    "respuesta": "Asa lateral"
+  },
+  {
+    "id": 77,
+    "etiquetas": ["escultura", "religioso"],
+    "pregunta": "¿Qué posición adoptan las manos en la Figura votiva de diorita?",
+    "opciones": ["Juntas en oración", "Extendidas al cielo", "Sobre el regazo", "Contra el pecho"],
+    "respuesta": "Juntas en oración"
+  },
+  {
+    "id": 78,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué longitud aproximada tiene el Modelo de barco de arcilla cocida?",
+    "opciones": ["12 cm", "30 cm", "5 cm", "50 cm"],
+    "respuesta": "12 cm"
+  },
+  {
+    "id": 79,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué almacenaban las tablillas con listas de raciones?",
+    "opciones": ["Aceite y grano", "Metales preciosos", "Piedras semipreciosas", "Pergaminos"],
+    "respuesta": "Aceite y grano"
+  },
+  {
+    "id": 80,
+    "etiquetas": ["cartografía", "histórico"],
+    "pregunta": "¿Qué texto acompaña a la Tabla del mapa del mundo para explicar regiones?",
+    "opciones": ["Leyenda cuneiforme", "Jeroglíficos", "Inscripciones latinas", "Glifos griegos"],
+    "respuesta": "Leyenda cuneiforme"
+  },
+  {
+    "id": 81,
+    "etiquetas": ["astronomía", "Mesopotamia"],
+    "pregunta": "¿Qué estrella se menciona en la Tabla cuneiforme astronómica junto a la Luna?",
+    "opciones": ["Venus", "Sirio", "Betelgeuse", "Rigel"],
+    "respuesta": "Venus"
+  },
+  {
+    "id": 82,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué parte de la lámpara romana evita el goteo de aceite?",
+    "opciones": ["Borde saliente", "Asa estrecha", "Base profunda", "Boquilla inclinada"],
+    "respuesta": "Borde saliente"
+  },
+  {
+    "id": 83,
+    "etiquetas": ["escultura", "Egipto"],
+    "pregunta": "¿Qué coloración original podría tener tenido la Figura fragmentaria de basalto verde?",
+    "opciones": ["Pintura roja", "Forma pulida", "Incrustaciones doradas", "Madera añadida"],
+    "respuesta": "Incrustaciones doradas"
+  },
+  {
+    "id": 84,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué razón escribe Nanni en su carta a Ea-nasir?",
+    "opciones": ["Calidad del cobre", "Retraso de envío", "Precio excesivo", "Falta de cortesía"],
+    "respuesta": "Calidad del cobre"
+  },
+  {
+    "id": 85,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué océano mítico aparece fuera del círculo de la Tabla del mapa del mundo?",
+    "opciones": ["MAR.MAR", "ABZU", "TIAMAT", "KUR"],
+    "respuesta": "ABZU"
+  },
+  {
+    "id": 86,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué precisión decimal alcanzaban las anotaciones de la Tabla cuneiforme astronómica?",
+    "opciones": ["Horas enteras", "Fracciones de día", "Minutos exactos", "Segundos"],
+    "respuesta": "Fracciones de día"
+  },
+  {
+    "id": 87,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué decoración aparece en el borde de las Lámparas romanas de cerámica?",
+    "opciones": ["Anillas concéntricas", "Figuras humanas", "Paisajes", "Textos inscritos"],
+    "respuesta": "Anillas concéntricas"
+  },
+  {
+    "id": 88,
+    "etiquetas": ["escultura", "religioso"],
+    "pregunta": "¿Qué pose ritual adopta la Figura votiva de la Tercera Dinastía de Ur?",
+    "opciones": ["Manos juntas", "Rodillas al suelo", "Brazos extendidos", "Mirada al cielo"],
+    "respuesta": "Manos juntas"
+  },
+  {
+    "id": 89,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué estilo de casco presenta el Modelo de barco de arcilla cocida?",
+    "opciones": ["Eslora recta", "Proa curva", "Quilla en V", "Fondo plano"],
+    "respuesta": "Fondo plano"
+  },
+  {
+    "id": 90,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué fragmento de texto suele perderse en las tablillas antiguas?",
+    "opciones": ["Cabeceras", "Inscripciones laterales", "Marcas de alfarero", "Sellos en relieve"],
+    "respuesta": "Inscripciones laterales"
+  },
+  {
+    "id": 91,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué símbolo marca las montañas en la Tabla del mapa del mundo?",
+    "opciones": ["Triángulos", "Círculos", "Cuadrados", "Líneas onduladas"],
+    "respuesta": "Triángulos"
+  },
+  {
+    "id": 92,
+    "etiquetas": ["astronomía"],
+    "pregunta": "¿Qué indicio de eclipse aparece en la Tabla cuneiforme astronómica?",
+    "opciones": ["Registro de sombra", "Anotación textual", "Dibujo gráfico", "Símbolo de estrella"],
+    "respuesta": "Registro de sombra"
+  },
+  {
+    "id": 93,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué forma adopta la base de la Lámpara romana para mayor estabilidad?",
+    "opciones": ["Tronco de cono", "Cilíndrica", "Esférica", "Plana"],
+    "respuesta": "Tronco de cono"
+  },
+  {
+    "id": 94,
+    "etiquetas": ["escultura", "Egipto", "mitología"],
+    "pregunta": "¿Qué rasgo iconográfico identifica a Isis-Serqet en la figura de basalto?",
+    "opciones": ["Cabeza de escorpión", "Corona atef", "Cetosis solar", "Anj"],
+    "respuesta": "Cabeza de escorpión"
+  },
+  {
+    "id": 95,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué línea de la Tabla de arcilla con cinco líneas menciona fechas de cosecha?",
+    "opciones": ["Tercera", "Primera", "Cuarta", "Segunda"],
+    "respuesta": "Segunda"
+  },
+  {
+    "id": 96,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué dirección corresponde al norte en la Tabla del mapa del mundo?",
+    "opciones": ["Hacia arriba", "Hacia abajo", "Hacia la izquierda", "Hacia la derecha"],
+    "respuesta": "Hacia arriba"
+  },
+  {
+    "id": 97,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué posición celeste se usaba como referencia en la Tabla cuneiforme astronómica?",
+    "opciones": ["Solsticio", "Equinoccio", "Zodíaco", "Meridiano"],
+    "respuesta": "Equinoccio"
+  },
+  {
+    "id": 98,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué distintivo de producción local tiene la Lámpara romana encontrada en Hispania?",
+    "opciones": ["Marca estampada", "Asa decorada", "Color rojo", "Incrustación metálica"],
+    "respuesta": "Marca estampada"
+  },
+  {
+    "id": 99,
+    "etiquetas": ["escultura", "religioso"],
+    "pregunta": "¿Qué inscripcción votiva acompaña a la Figura de diorita?",
+    "opciones": ["Nombre del donante", "Oración completa", "Fecha exacta", "Título real"],
+    "respuesta": "Nombre del donante"
+  },
+  {
+    "id": 100,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué símbolo de protección aparece en la proa del Modelo de barco de arcilla cocida?",
+    "opciones": ["Ojo de Horus", "Anj", "Menat", "Escarabajo"],
+    "respuesta": "Escarabajo"
+  }
+
+
+
+]

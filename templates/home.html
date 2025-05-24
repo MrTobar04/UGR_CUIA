@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Verificar token  -->
+  <script src="static/js/verificarToken.js" defer></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Museo Virtual</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/home.css">
+</head>
+<body>
+
+
+
+<!-- Navbar tipo Netflix -->
+ <div id="navbar">
+ </div>
+
+
+<!-- Banner de bienvenida -->
+<div id="welcome-banner" class="alert alert-success text-center fw-bold shadow-lg" role="alert">
+  
+
+
+
+
+
+</div>
+
+
+  <!-- Espacio para compensar el navbar fijo -->
+  <div style="height: 70px;"></div>
+
+  <!-- Carrusel Principal -->
+  <div id="carouselDestacados" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner" id="carouselInner">
+      <!-- Aquí se cargarán dinámicamente los items del carrusel -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestacados" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselDestacados" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <!-- Etiquetas -->
+  <div class="container mt-5">
+    <div class="fila-tarjetas" id="gridEtiquetas"></div>
+  </div>
+
+
+
+    <!-- Elementos Recomendaciones -->
+  <div class="container mb-5">
+    
+    <h3 class="text-white mb-4">Recomendaciones para ti</h3>
+       <!-- Grid de otras obras -->
+   <div class="position-relative">
+    <button id="scroll-left-recomendaciones" class="scroll-btn left">&#10094;</button>
+  
+    <div id="gridRecomendaciones" class="d-flex overflow-auto scroll-container gap-3 px-2"></div>
+  
+    <button id="scroll-right-recomendaciones" class="scroll-btn right">&#10095;</button>
+  </div>
+
+  </div>
+
+
+   <!-- Grid de otras obras -->
+   <div class="container mb-5">
+    <h2 id="Explora" class="text-white mb-3">Explora más obras</h2>
+    <div class="row g-3" id="gridObras">
+      <!-- Aquí se cargarán dinámicamente las obras -->
+    </div>
+  </div>
+
+  <!-- Botón flotante de micrófono -->
+  <button id="btn-microfono" class="btn btn-success rounded-circle shadow" title="Hablar">
+    <i id="icono-microfono" class="bi bi-mic-fill fs-4 text-white"></i>
+  </button>
+
+    
+  <!-- Footer -->
+  <footer class="text-center mt-5 p-4 footer">
+    <p class="mb-0">&copy; 2025 Museo Virtual. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="static/js/navbar.js"></script>
+  <script src="static/js/home.js"></script>
+</body>
+</html>

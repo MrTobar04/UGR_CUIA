@@ -1,0 +1,35 @@
+body {
+    background-color: #141414;
+    color: white;
+  }
+  
+  .navbar {
+    background-color: #000;
+    color: white;
+  }
+  
+  .card {
+    background-color: #000;
+    border: 1px solid #222;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+  }
+  
+  /* Etiquetas del formulario en blanco */
+  .form-label {
+    color: white;
+  }
+  
