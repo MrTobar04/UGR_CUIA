@@ -64,17 +64,26 @@ const numerosEscritos = {
 
 //NavBar 
 
-document.addEventListener("DOMContentLoaded", async function() {
+document.addEventListener("DOMContentLoaded", async function () {
   sessionStorage.clear();
   const asistenteActivado = await cargarAsistente();
   mostrarNavBar(asistenteActivado);
   cargarEventoBusqueda();
 
-  
+
+
+
   activarAudio();
 
-  if(localStorage.getItem('showWelcomeBanner') && asistenteActivado){
+  if (localStorage.getItem('showWelcomeBanner') && asistenteActivado) {
     mostrarBienvenida();
+  }
+
+  if (window.location.pathname == "/quiz" && asistenteActivado) {
+
+    document.addEventListener("preguntaMostrada", (e) => {
+      leerPregunta()
+    });
   }
 });
 
@@ -87,7 +96,7 @@ function mostrarNavBar(asistenteActivado){
   div.innerHTML=
 `<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand fw-bold text-danger" href="#">MuseoVirtual</a>
+    <a class="navbar-brand fw-bold text-danger" style="font-size: 1.8rem;" href="/home">MuseoVirtual</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -492,6 +501,11 @@ async function procesamientoInteligente(audio_blob) {
     formData.append('obra', obra);
   }
 
+  if (window.location.pathname == "/quiz") {
+    const pregunta_quiz = textoPregunta();
+    formData.append('obra', pregunta_quiz);
+  }
+
 
   const token = localStorage.getItem("token");
 
@@ -615,6 +629,16 @@ async function comandosPorVoz(comando) {
     }
   }
 
+  if (comando.includes("opción")) {
+    const numeros = ["1", "2", "3", "4"];
+    numeros.forEach(numero => {
+      if(numero == comando.charAt(comando.length - 1)){
+        condicionesCumplidas++;
+        accion = () => seleccionarOpcion(numeros.indexOf(numero));
+      }
+    });
+  }
+
 
   // Ejecutar solo si hay exactamente una coincidencia
   if (condicionesCumplidas === 1) {
@@ -697,4 +721,87 @@ function mostrarBienvenida(){
     
 
     
+}
+
+
+
+
+
+
+
+
+
+//Interfaz Quizz
+
+
+
+
+
+
+
+
+
+
+
+async function leerPregunta(){
+
+  clearInterval(intervaloMonitoreo)
+  botonMuteado();
+  document.getElementById("btnAtras").disabled = true;
+  document.getElementById("btnResponder").disabled = true;
+
+  await respuestaVoz(textoPregunta());
+
+  document.getElementById("btnAtras").disabled = false;
+  document.getElementById("btnResponder").disabled = false;  
+  botonActivado();
+  if (monitoreoActivado) monitorVolume();
+}
+
+
+
+function textoPregunta() {
+
+  const form = document.getElementById("quiz-form");
+  let texto = "";
+
+  // Obtener el texto de la pregunta (asumiendo que es el único <h4> dentro del form)
+  const titulo = form.querySelector("h4");
+  if (titulo) {
+    texto += titulo.textContent + "\n";
+  }
+
+  // Obtener las opciones por ID (opcion0, opcion1, etc.)
+  texto += "Las opciones son:" + "\n";
+  let index = 0;
+  while (true) {
+    const label = form.querySelector(`label[for="opcion${index}"]`);
+    if (!label) break; // No hay más opciones
+
+    texto += label.textContent.trim() + "\n";
+    index++;
+  }
+
+  return texto.trim();
+}
+
+
+
+
+function seleccionarOpcion(index) {
+  if (index === -1) {
+    console.warn(`Letra inválida: ${letra}`);
+    return;
+  }
+
+  const radio = document.getElementById(`opcion${index}`);
+  if (radio) {
+    radio.click();
+
+    setTimeout(() => {document.getElementById("btnResponder").click();}, 2000);
+
+
+  } else {
+    console.warn(`No se encontró la opción con id opcion${index}`);
+  }
 }

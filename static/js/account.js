@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     mostrarTitulo(result.datos.nombre_usuario);
     mostrarPuntuacion(result.datos.quiz_realizados, result.datos.puntuacion);
     mostrarFormulario(result.datos.nombre_usuario, result.datos.correo, result.datos.quiz_realizados, result.datos.puntuacion);
-
+    mostrarGustos(result.datos.etiquetas);
   })
   .catch(error => {
     console.error('Error:', error);
@@ -68,4 +68,29 @@ function mostrarFormulario(nombre, correo, n, puntuacion){
     document.getElementById("correo_electronico").value = correo;
     document.getElementById("quiz_realizados").value = n;
     document.getElementById("puntuacion").value = puntuacion;
+}
+
+
+function mostrarGustos(etiquetas) {
+  const gustos = document.getElementById("gustosUsuario");
+  const maxValor = Math.max(...etiquetas.map(e => e.valor));
+
+  if (maxValor != 0) {
+    const colores = ["primary", "secondary", "success", "danger", "warning", "info", "dark"];
+
+    etiquetas.forEach((etiqueta, index) => {
+      const tamaño = 3.2 * (etiqueta.valor / maxValor);
+      if (tamaño >= 1) {
+        const color = colores[index % colores.length]; // usar diferentes colores en orden
+
+        const col = document.createElement('div');
+        col.innerHTML = `
+        <span class="badge bg-${color}" style="font-size: ${tamaño}rem;">
+          ${etiqueta.etiqueta}
+        </span>
+      `;
+        gustos.appendChild(col);
+      }
+    });
+  }
 }

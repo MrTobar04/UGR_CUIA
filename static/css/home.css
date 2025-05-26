@@ -155,5 +155,68 @@ body {
     accent-color: red;
   }
 
+.art-grid-card-container {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  flex: 0 0 auto;
+}
+
+.art-grid-card-container-mini {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  flex: 0 0 auto;
+}
+
+.art-grid-card {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-title {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
   
+.etiquetas-container {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap;
+}
+
+.etiqueta-card {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background-color 0.3s, transform 0.3s;
+  border: 1px solid #444;
+  flex: 0 0 auto;
+}
+
+.etiqueta-card:hover {
+  background-color: #e50914;
+  color: white;
+  transform: scale(1.05);
+  border-color: transparent;
+}

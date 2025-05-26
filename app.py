@@ -103,7 +103,7 @@ def register_face():
         face_encoding = obtener_face_encoding(imagen)
 
         # Convertir el encoding a string (por ejemplo, como JSON serializado)
-        face_encoding_str = json.dumps(face_encoding.tolist())
+        face_encoding_str = json.dumps(face_encoding)
 
         return {'face_encoding': face_encoding_str}, 200
 
@@ -250,6 +250,7 @@ def pregunta_inteligente():
 
     raw_file = request.files['audio']
     obra = request.form.get('obra')
+    pregunta_quiz = request.form.get('pregunta_quiz')
     historial = request.form.get('historial')
 
     
@@ -274,7 +275,7 @@ def pregunta_inteligente():
 
         # Procesar audio
         pregunta = recognize_audio(wav_path)  
-        respuesta = respuesta_inteligente(pregunta, tokenUsuario, obra, historial)  
+        respuesta = respuesta_inteligente(pregunta, tokenUsuario, obra, pregunta_quiz, historial)  
 
         # Dividir antes de cada 'COMANDO' usando lookahead
         partes = re.split(r'(?=COMANDO)', respuesta)

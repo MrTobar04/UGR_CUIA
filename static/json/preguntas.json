@@ -698,6 +698,622 @@
     "pregunta": "¿Qué símbolo de protección aparece en la proa del Modelo de barco de arcilla cocida?",
     "opciones": ["Ojo de Horus", "Anj", "Menat", "Escarabajo"],
     "respuesta": "Escarabajo"
+  }, 
+  {
+    "id": 101,
+    "etiquetas": ["escultura", "religioso", "Egipto"],
+    "pregunta": "¿Qué animal sagrado acompaña comúnmente a las representaciones de la diosa Bastet?",
+    "opciones": ["Gato", "Cocodrilo", "Halcón", "Escarabajo"],
+    "respuesta": "Gato"
+  },
+  {
+    "id": 102,
+    "etiquetas": ["Mesopotamia", "escritura"],
+    "pregunta": "¿Qué tipo de registro administrativo predominaba en las tablillas de la III Dinastía de Ur?",
+    "opciones": ["Distribución de alimentos", "Tratados de paz", "Poemas épicos", "Rituales funerarios"],
+    "respuesta": "Distribución de alimentos"
+  },
+  {
+    "id": 103,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué planeta era asociado con el dios Nabu en la astronomía mesopotámica?",
+    "opciones": ["Mercurio", "Marte", "Júpiter", "Venus"],
+    "respuesta": "Mercurio"
+  },
+  {
+    "id": 104,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué técnica decorativa usaban los romanos para dar brillo a sus cerámicas?",
+    "opciones": ["Vidriado", "Policromía", "Grabado", "Incrustación"],
+    "respuesta": "Vidriado"
+  },
+  {
+    "id": 105,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué tipo de carga se representaba comúnmente en los modelos de barcos mercantes mesopotámicos?",
+    "opciones": ["Lana", "Cobre", "Trigo", "Madera"],
+    "respuesta": "Trigo"
+  },
+  {
+    "id": 106,
+    "etiquetas": ["religioso", "mitología", "Egipto"],
+    "pregunta": "¿Qué símbolo portaba Osiris para representar su autoridad en el más allá?",
+    "opciones": ["Cayado y mayal", "Anj", "Cetro was", "Disco solar"],
+    "respuesta": "Cayado y mayal"
+  },
+  {
+    "id": 107,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué rey asirio es conocido por su biblioteca de tablillas en Nínive?",
+    "opciones": ["Asurbanipal", "Hammurabi", "Nabucodonosor", "Sargón II"],
+    "respuesta": "Asurbanipal"
+  },
+  {
+    "id": 108,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué forma tenían las lámparas romanas para maximizar la distribución de la luz?",
+    "opciones": ["Circular con múltiples mechas", "Cuadrada con una mecha", "Alargada con relieve", "Cilíndrica con tapa"],
+    "respuesta": "Circular con múltiples mechas"
+  },
+  {
+    "id": 109,
+    "etiquetas": ["escultura", "Egipto"],
+    "pregunta": "¿Qué faraón se representa en la Esfinge de Giza?",
+    "opciones": ["Kefrén", "Keops", "Ramsés II", "Tutankamón"],
+    "respuesta": "Kefrén"
+  },
+  {
+    "id": 110,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué río aparece destacado en la Tabla del mapa del mundo mesopotámico?",
+    "opciones": ["Éufrates", "Nilo", "Tigris", "Indo"],
+    "respuesta": "Éufrates"
+  },
+  {
+    "id": 111,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué constelación mesopotámica representaba al león?",
+    "opciones": ["Leo", "Urgu-la", "Mul-apin", "Sirius"],
+    "respuesta": "Urgu-la"
+  },
+  {
+    "id": 112,
+    "etiquetas": ["religioso", "mitología"],
+    "pregunta": "¿Qué dios mesopotámico era asociado con las tormentas y la lluvia?",
+    "opciones": ["Enlil", "Marduk", "Shamash", "Adad"],
+    "respuesta": "Adad"
+  },
+  {
+    "id": 113,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué término cuneiforme se usaba para designar a un escriba?",
+    "opciones": ["Dubsar", "Lugal", "Ensi", "Gala"],
+    "respuesta": "Dubsar"
+  },
+  {
+    "id": 114,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué motivo floral era común en la loza romana de Hispania?",
+    "opciones": ["Vid", "Olivo", "Palmeta", "Rosa"],
+    "respuesta": "Palmeta"
+  },
+  {
+    "id": 115,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué material se usaba para sellar las juntas en barcos mesopotámicos reales?",
+    "opciones": ["Betún", "Cera", "Arcilla", "Resina"],
+    "respuesta": "Betún"
+  },
+  {
+    "id": 116,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué ciudad fue el centro administrativo de la III Dinastía de Ur?",
+    "opciones": ["Ur", "Babilonia", "Nippur", "Uruk"],
+    "respuesta": "Ur"
+  },
+  {
+    "id": 117,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué amuleto egipcio simbolizaba la vida eterna?",
+    "opciones": ["Anj", "Escarabajo", "Ojo de Horus", "Djed"],
+    "respuesta": "Anj"
+  },
+  {
+    "id": 118,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué evento celeste se consideraba un presagio negativo en Babilonia?",
+    "opciones": ["Eclipse lunar", "Lluvia de estrellas", "Amanecer brillante", "Nube oscura"],
+    "respuesta": "Eclipse lunar"
+  },
+  {
+    "id": 119,
+    "etiquetas": ["escultura", "religioso"],
+    "pregunta": "¿Qué parte del cuerpo se exageraba en las estatuas votivas sumerias para simbolizar devoción?",
+    "opciones": ["Ojos", "Manos", "Pies", "Oídos"],
+    "respuesta": "Ojos"
+  },
+  {
+    "id": 120,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué función secundaria tenían las lámparas romanas en rituales domésticos?",
+    "opciones": ["Ofrenda a los lares", "Cocinar alimentos", "Medir tiempo", "Almacenar agua"],
+    "respuesta": "Ofrenda a los lares"
+  },
+  {
+    "id": 121,
+    "etiquetas": ["Mesopotamia", "histórico"],
+    "pregunta": "¿Qué sistema numérico utilizaban los escribas para registros comerciales?",
+    "opciones": ["Sexagesimal", "Decimal", "Binario", "Vigesimal"],
+    "respuesta": "Sexagesimal"
+  },
+  {
+    "id": 122,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué región se ubicaba al este en la Tabla del mapa del mundo?",
+    "opciones": ["Elam", "Asiria", "Hititas", "Dilmun"],
+    "respuesta": "Elam"
+  },
+  {
+    "id": 123,
+    "etiquetas": ["mitología", "Egipto"],
+    "pregunta": "¿Qué dios egipcio era representado con cabeza de halcón?",
+    "opciones": ["Horus", "Anubis", "Thot", "Sobek"],
+    "respuesta": "Horus"
+  },
+  {
+    "id": 124,
+    "etiquetas": ["escritura", "histórico"],
+    "pregunta": "¿Qué soporte alternativo usaban los mesopotámicos antes de la arcilla?",
+    "opciones": ["Piedra caliza", "Madera", "Papiro", "Hueso"],
+    "respuesta": "Piedra caliza"
+  },
+  {
+    "id": 125,
+    "etiquetas": ["cerámica", "utilitario"],
+    "pregunta": "¿Qué color predominaba en las cerámicas romanas de uso diario?",
+    "opciones": ["Rojo brillante", "Negro opaco", "Blanco crema", "Verde oscuro"],
+    "respuesta": "Rojo brillante"
+  },
+  {
+    "id": 126,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué elemento indicaba el estatus social del dueño en modelos de barcos egipcios?",
+    "opciones": ["Velas decoradas", "Figuras de proa", "Remos dorados", "Escudos en la cubierta"],
+    "respuesta": "Velas decoradas"
+  },
+  {
+    "id": 127,
+    "etiquetas": ["religioso", "Mesopotamia"],
+    "pregunta": "¿Qué zigurat es asociado con el dios Marduk en Babilonia?",
+    "opciones": ["Etemenanki", "Zigurat de Ur", "Dur-Kurigalzu", "Chogha Zanbil"],
+    "respuesta": "Etemenanki"
+  },
+  {
+    "id": 128,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué período marcaba el inicio del año nuevo en el calendario babilónico?",
+    "opciones": ["Equinoccio de primavera", "Solsticio de verano", "Luna nueva de otoño", "Eclipse solar"],
+    "respuesta": "Equinoccio de primavera"
+  },
+  {
+    "id": 129,
+    "etiquetas": ["escultura", "Egipto"],
+    "pregunta": "¿Qué material se usaba para estatuas de faraones en templos?",
+    "opciones": ["Granito rosa", "Madera de cedro", "Arcilla pintada", "Obsidiana"],
+    "respuesta": "Granito rosa"
+  },
+  {
+    "id": 130,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué imperio sucedió al período de Ur III?",
+    "opciones": ["Imperio paleobabilónico", "Imperio asirio", "Imperio hitita", "Imperio persa"],
+    "respuesta": "Imperio paleobabilónico"
+  },
+  {
+    "id": 131,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué símbolo de protección se grababa en lámparas romanas?",
+    "opciones": ["Gorgona", "Medusa", "Minotauro", "Tritón"],
+    "respuesta": "Gorgona"
+  },
+  {
+    "id": 132,
+    "etiquetas": ["mitología", "religioso"],
+    "pregunta": "¿Qué diosa mesopotámica era asociada con el amor y la guerra?",
+    "opciones": ["Ishtar", "Inanna", "Ninhursag", "Tiamat"],
+    "respuesta": "Ishtar"
+  },
+  {
+    "id": 133,
+    "etiquetas": ["cartografía", "histórico"],
+    "pregunta": "¿Qué ciudad se consideraba el centro religioso de Mesopotamia en el mapa del mundo?",
+    "opciones": ["Nippur", "Babilonia", "Ur", "Sippar"],
+    "respuesta": "Nippur"
+  },
+  {
+    "id": 134,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué tablilla contenía el mito de la creación babilónico?",
+    "opciones": ["Enûma Eliš", "Epic of Gilgamesh", "Código de Hammurabi", "Poema de Erra"],
+    "respuesta": "Enûma Eliš"
+  },
+  {
+    "id": 135,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué animal mitológico decoraba las vasijas griegas influenciadas por Mesopotamia?",
+    "opciones": ["Grifo", "Quimera", "Pegaso", "Esfinge"],
+    "respuesta": "Griffo"
+  },
+  {
+    "id": 136,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué tipo de vela usaban los barcos representados en modelos ceremoniales egipcios?",
+    "opciones": ["Triangular", "Rectangular", "Cuadrada", "Redonda"],
+    "respuesta": "Cuadrada"
+  },
+  {
+    "id": 137,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué libro funerario guiaba a los muertos en el más allá egipcio?",
+    "opciones": ["Libro de los Muertos", "Libro de las Cavernas", "Libro de las Puertas", "Textos de las Pirámides"],
+    "respuesta": "Libro de los Muertos"
+  },
+  {
+    "id": 138,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué planeta era conocido como 'Nergal' en Babilonia?",
+    "opciones": ["Marte", "Júpiter", "Saturno", "Venus"],
+    "respuesta": "Marte"
+  },
+  {
+    "id": 139,
+    "etiquetas": ["escultura", "Mesopotamia"],
+    "pregunta": "¿Qué rey sumerio es representado en el Estandarte de Ur?",
+    "opciones": ["Ur-Nammu", "Gilgamesh", "Lugalzagesi", "Eannatum"],
+    "respuesta": "Eannatum"
+  },
+  {
+    "id": 140,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué forma tenían las ánforas romanas para facilitar su almacenamiento?",
+    "opciones": ["Cilíndrica con base puntiaguda", "Esférica con asas", "Cúbica con tapa", "Cónica con relieve"],
+    "respuesta": "Cilíndrica con base puntiaguda"
+  },
+  {
+    "id": 141,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué metal era más valorado en el comercio mesopotámico?",
+    "opciones": ["Plata", "Oro", "Bronce", "Hierro"],
+    "respuesta": "Plata"
+  },
+  {
+    "id": 142,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué concepto geográfico desconocido rodeaba el mundo en la Tabla del mapa?",
+    "opciones": ["Océano primordial", "Montañas de cristal", "Desierto infinito", "Bosque oscuro"],
+    "respuesta": "Océano primordial"
+  },
+  {
+    "id": 143,
+    "etiquetas": ["mitología", "religioso"],
+    "pregunta": "¿Qué dios egipcio se asociaba con la momificación?",
+    "opciones": ["Anubis", "Osiris", "Thot", "Seth"],
+    "respuesta": "Anubis"
+  },
+  {
+    "id": 144,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué tablilla contiene las leyes de Hammurabi?",
+    "opciones": ["Estela de basalto", "Tabla de arcilla", "Papiro enrollado", "Lámina de bronce"],
+    "respuesta": "Estela de basalto"
+  },
+  {
+    "id": 145,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué técnica usaban los griegos para decorar cerámica con figuras negras?",
+    "opciones": ["Silueta negra sobre rojo", "Incisa y pintada", "Engobe rojo brillante", "Vidriado verde"],
+    "respuesta": "Silueta negra sobre rojo"
+  },
+  {
+    "id": 146,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué símbolo de fertilidad se tallaba en barcos rituales egipcios?",
+    "opciones": ["Flor de loto", "Papiro", "Escarabajo", "Hathor"],
+    "respuesta": "Flor de loto"
+  },
+  {
+    "id": 147,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué templo alineado con el solsticio fue construido por Ramsés II?",
+    "opciones": ["Abu Simbel", "Karnak", "Luxor", "Hatshepsut"],
+    "respuesta": "Abu Simbel"
+  },
+  {
+    "id": 148,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué estrella marcaba el inicio del año nuevo egipcio?",
+    "opciones": ["Sirio", "Aldebarán", "Vega", "Polaris"],
+    "respuesta": "Sirio"
+  },
+  {
+    "id": 149,
+    "etiquetas": ["escultura", "Mesopotamia"],
+    "pregunta": "¿Qué animal representaba al dios Ningirsu en estatuas sumerias?",
+    "opciones": ["León alado", "Águila", "Toro", "Serpiente"],
+    "respuesta": "León alado"
+  },
+  {
+    "id": 150,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué uso tenían los 'askoi' griegos en la vida cotidiana?",
+    "opciones": ["Contenedores de aceite", "Lámparas portátiles", "Vasijas para vino", "Urnas funerarias"],
+    "respuesta": "Lámparas portátiles"
+  },
+  {
+    "id": 151,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué sistema de riego inventaron los mesopotámicos para la agricultura?",
+    "opciones": ["Canales", "Norias", "Acequias subterráneas", "Presas de piedra"],
+    "respuesta": "Canales"
+  },
+  {
+    "id": 152,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué ciudad se consideraba el 'ombligo del mundo' en la Tabla del mapa?",
+    "opciones": ["Babilonia", "Nippur", "Ur", "Sippar"],
+    "respuesta": "Babilonia"
+  },
+  {
+    "id": 153,
+    "etiquetas": ["mitología", "religioso"],
+    "pregunta": "¿Qué dios egipcio representaba el caos y la sequía?",
+    "opciones": ["Seth", "Apofis", "Sobek", "Amón"],
+    "respuesta": "Seth"
+  },
+  {
+    "id": 154,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué tablilla contiene el Poema de Gilgamesh?",
+    "opciones": ["Tablilla XI de la biblioteca de Asurbanipal", "Estela de Ur-Nammu", "Cilindro de Ciro", "Obelisco de Shalmaneser"],
+    "respuesta": "Tablilla XI de la biblioteca de Asurbanipal"
+  },
+  {
+    "id": 155,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué escena mitológica decoraba el Vaso de Warka?",
+    "opciones": ["Procesión religiosa", "Batalla de dioses", "Caza de leones", "Creación del hombre"],
+    "respuesta": "Procesión religiosa"
+  },
+  {
+    "id": 156,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué parte del barco egipcio se decoraba con ojos para 'ver' el camino?",
+    "opciones": ["Proa", "Popa", "Mástil", "Timón"],
+    "respuesta": "Proa"
+  },
+  {
+    "id": 157,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué símbolo llevaba Isis en la cabeza como atributo divino?",
+    "opciones": ["Trono", "Disco solar y cuernos", "Pluma de Maat", "Cetro was"],
+    "respuesta": "Trono"
+  },
+  {
+    "id": 158,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué instrumento usaban los egipcios para medir la hora nocturna?",
+    "opciones": ["Reloj de estrella", "Clepsidra", "Gnomon", "Astrolabio"],
+    "respuesta": "Reloj de estrella"
+  },
+  {
+    "id": 159,
+    "etiquetas": ["escultura", "Mesopotamia"],
+    "pregunta": "¿Qué material se usaba para las estatuas de dioses en templos sumerios?",
+    "opciones": ["Diorita pulida", "Mármol blanco", "Bronce fundido", "Madera de cedro"],
+    "respuesta": "Diorita pulida"
+  },
+  {
+    "id": 160,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué forma tenían las lucernas romanas para colgarse en paredes?",
+    "opciones": ["Disco con gancho", "Cilindro con asa", "Esfera con cadena", "Cono con soporte"],
+    "respuesta": "Disco con gancho"
+  },
+  {
+    "id": 161,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué imperio destruyó la ciudad de Nínive en el 612 a.C.?",
+    "opciones": ["Medos y babilonios", "Persas", "Hititas", "Egipcios"],
+    "respuesta": "Medos y babilonios"
+  },
+  {
+    "id": 162,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué río mitológico rodeaba el mundo en la cosmografía mesopotámica?",
+    "opciones": ["Hubur", "Éufrates", "Tigris", "Nilo"],
+    "respuesta": "Hubur"
+  },
+  {
+    "id": 163,
+    "etiquetas": ["mitología", "religioso"],
+    "pregunta": "¿Qué dios mesopotámico era señor del inframundo?",
+    "opciones": ["Nergal", "Enki", "Utu", "Ninurta"],
+    "respuesta": "Nergal"
+  },
+  {
+    "id": 164,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué tablilla contenía presagios basados en fenómenos naturales?",
+    "opciones": ["Šumma ālu", "Enûma Eliš", "Ludlul bēl nēmeqi", "Erra y Ishum"],
+    "respuesta": "Šumma ālu"
+  },
+  {
+    "id": 165,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué animal simbolizaba protección en las cerámicas minoicas?",
+    "opciones": ["Pulpo", "Toro", "Delfín", "León"],
+    "respuesta": "Pulpo"
+  },
+  {
+    "id": 166,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué tipo de barco usaban los fenicios para comercio de larga distancia?",
+    "opciones": ["Galera mercante", "Bireme", "Trirreme", "Barco redondo"],
+    "respuesta": "Barco redondo"
+  },
+  {
+    "id": 167,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué amuleto se colocaba en las vendas de las momias para protección?",
+    "opciones": ["Escarabajo del corazón", "Ojo de Horus", "Anj", "Djed"],
+    "respuesta": "Escarabajo del corazón"
+  },
+  {
+    "id": 168,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué término babilónico se usaba para nombrar a las estrellas fijas?",
+    "opciones": ["MUL", "Kakkabu", "Shamash", "Nisirtu"],
+    "respuesta": "MUL"
+  },
+  {
+    "id": 169,
+    "etiquetas": ["escultura", "Mesopotamia"],
+    "pregunta": "¿Qué rey asirio es representado cazando leones en un bajo relieve?",
+    "opciones": ["Asurbanipal", "Sargón II", "Tiglat-Pileser III", "Salmanasar V"],
+    "respuesta": "Asurbanipal"
+  },
+  {
+    "id": 170,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué diseño geométrico era común en cerámicas neolíticas mesopotámicas?",
+    "opciones": ["Zigzag", "Espiral", "Triángulo", "Cuadrado"],
+    "respuesta": "Zigzag"
+  },
+  {
+    "id": 171,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué dinastía fundó Ur-Nammu?",
+    "opciones": ["III Dinastía de Ur", "Dinastía de Akkad", "Dinastía de Isin", "Dinastía de Larsa"],
+    "respuesta": "III Dinastía de Ur"
+  },
+  {
+    "id": 172,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué dirección cardinal se asociaba con el inframundo en la Tabla del mapa?",
+    "opciones": ["Oeste", "Este", "Norte", "Sur"],
+    "respuesta": "Oeste"
+  },
+  {
+    "id": 173,
+    "etiquetas": ["mitología", "religioso"],
+    "pregunta": "¿Qué dios egipcio personificaba el sol del atardecer?",
+    "opciones": ["Atum", "Ra", "Horus", "Khepri"],
+    "respuesta": "Atum"
+  },
+  {
+    "id": 174,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué tablilla registraba la venta de tierras en la antigua Ur?",
+    "opciones": ["Contrato de arcilla", "Estela de basalto", "Cilindro-sello", "Ostracon"],
+    "respuesta": "Contrato de arcilla"
+  },
+  {
+    "id": 175,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué técnica decorativa usaban los hititas en cerámica?",
+    "opciones": ["Relieve pintado", "Incisa con engobe", "Vidriado azul", "Impresión con sellos"],
+    "respuesta": "Impresión con sellos"
+  },
+  {
+    "id": 176,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué símbolo de poder real llevaban los barcos ceremoniales asirios?",
+    "opciones": ["Estandarte con león", "Escudo dorado", "Figura de toro alado", "Ancla de plata"],
+    "respuesta": "Figura de toro alado"
+  },
+  {
+    "id": 177,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué templo está dedicado a la diosa Hathor en Dendera?",
+    "opciones": ["Templo de Hathor", "Templo de Horus", "Templo de Isis", "Templo de Amón"],
+    "respuesta": "Templo de Hathor"
+  },
+  {
+    "id": 178,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué calendario lunar-solar desarrollaron los mesopotámicos?",
+    "opciones": ["Calendario babilónico", "Calendario egipcio", "Calendario juliano", "Calendario gregoriano"],
+    "respuesta": "Calendario babilónico"
+  },
+  {
+    "id": 179,
+    "etiquetas": ["escultura", "Mesopotamia"],
+    "pregunta": "¿Qué rey aparece representado en el Código de Hammurabi?",
+    "opciones": ["Hammurabi", "Ur-Nammu", "Nabucodonosor", "Sargón de Akkad"],
+    "respuesta": "Hammurabi"
+  },
+  {
+    "id": 180,
+    "etiquetas": ["utilitario", "cerámica"],
+    "pregunta": "¿Qué tipo de cerámica romana imitaba el metal precioso?",
+    "opciones": ["Terra Sigillata", "Cerámica negra pulida", "Ánfora vinaria", "Vajilla campaniense"],
+    "respuesta": "Terra Sigillata"
+  },
+  {
+    "id": 181,
+    "etiquetas": ["histórico", "Mesopotamia"],
+    "pregunta": "¿Qué ciudad fue capital del Imperio acadio?",
+    "opciones": ["Akkad", "Ur", "Babilonia", "Nínive"],
+    "respuesta": "Akkad"
+  },
+  {
+    "id": 182,
+    "etiquetas": ["cartografía", "Mesopotamia"],
+    "pregunta": "¿Qué montaña mítica aparece en el borde del mapa mesopotámico?",
+    "opciones": ["Monte Mashu", "Ararat", "Zagros", "Sinaí"],
+    "respuesta": "Monte Mashu"
+  },
+  {
+    "id": 183,
+    "etiquetas": ["mitología", "religioso"],
+    "pregunta": "¿Qué dios sumerio era señor del viento y las tormentas?",
+    "opciones": ["Enlil", "Enki", "Anu", "Utu"],
+    "respuesta": "Enlil"
+  },
+  {
+    "id": 184,
+    "etiquetas": ["escritura", "Mesopotamia"],
+    "pregunta": "¿Qué tablilla escolar enseñaba signos cuneiformes básicos?",
+    "opciones": ["Lista léxica", "Ejercicio de copia", "Poema didáctico", "Carta modelo"],
+    "respuesta": "Lista léxica"
+  },
+  {
+    "id": 185,
+    "etiquetas": ["cerámica", "decorativo"],
+    "pregunta": "¿Qué civilización influenció la cerámica policromada de Susa?",
+    "opciones": ["Elamita", "Persa", "Sumerio", "Hitita"],
+    "respuesta": "Elamita"
+  },
+  {
+    "id": 186,
+    "etiquetas": ["transporte", "modelo"],
+    "pregunta": "¿Qué carga transportaban los barcos representados en modelos urritas?",
+    "opciones": ["Ladrillos de arcilla", "Trigo y cebada", "Piedras preciosas", "Armas de bronce"],
+    "respuesta": "Trigo y cebada"
+  },
+  {
+    "id": 187,
+    "etiquetas": ["religioso", "Egipto"],
+    "pregunta": "¿Qué parte del cuerpo de Osiris fue encontrada en Byblos?",
+    "opciones": ["Pene", "Corazón", "Brazo", "Cabeza"],
+    "respuesta": "Pene"
+  },
+  {
+    "id": 188,
+    "etiquetas": ["astronomía", "ciencia antigua"],
+    "pregunta": "¿Qué constelación representaba a la diosa Ishtar en Babilonia?",
+    "opciones": ["Virgo", "Tauro", "Leo", "Escorpio"],
+    "respuesta": "Virgo"
   }
 
 

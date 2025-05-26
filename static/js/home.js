@@ -148,15 +148,18 @@ function cargarRecomendaciones(){
         grid.innerHTML = ''; // Limpiar contenido previo
   
         recomendados.forEach(item => {
-          const col = document.createElement('div');
-          col.className = 'col-6 col-md-4 col-lg-3';
-          col.innerHTML = `
-            <a href="select?id=${item.id}">
-              <img src="static/src/img/${item.imagen}" class="img-fluid rounded" alt="${item.nombre}">
-            </a>
-          `;
-          grid.appendChild(col);
-        });
+        const col = document.createElement('div');
+        col.className = 'art-grid-card-container'; // Nuevo contenedor
+
+        col.innerHTML = `
+          <a href="select?id=${item.id}">
+            <div class="art-grid-card" style="background-image: url('static/src/img/${item.imagen}')">
+              <div class="overlay-title">${item.nombre}</div>
+            </div>
+          </a>
+        `;
+        grid.appendChild(col);
+      });
 
 
           // Activar flechas
@@ -177,52 +180,48 @@ function cargarRecomendaciones(){
 }
 
 
-
-function cargarGrid(){
-
+function cargarGrid() {
   fetch('static/json/obras.json')
-      .then(response => response.json())
-      .then(data => {
-        const grid = document.getElementById('gridObras');
-        data.forEach((item, index) => {
-          const col = document.createElement('div');
-          col.className = 'col-6 col-md-4 col-lg-3';
-          col.innerHTML = `
-            <a href="select?id=${item.id}">
-              <img src="static/src/img/${item.imagen}" class="img-fluid rounded" alt="${item.nombre}">
-            </a>
-          `;
-          grid.appendChild(col);
-        });
-      })
-      .catch(error => console.error('Error cargando el JSON:', error));
+    .then(response => response.json())
+    .then(data => {
+      const grid = document.getElementById('gridObras');
+      data.forEach(item => {
+        const col = document.createElement('div');
+        col.className = 'art-grid-card-container-mini'; // Nuevo contenedor
 
+        col.innerHTML = `
+          <a href="select?id=${item.id}">
+            <div class="art-grid-card" style="background-image: url('static/src/img/${item.imagen}')">
+              <div class="overlay-title">${item.nombre}</div>
+            </div>
+          </a>
+        `;
+        grid.appendChild(col);
+      });
+    })
+    .catch(error => console.error('Error cargando el JSON:', error));
 }
 
 
 function cargarEtiquetas() {
   const obras = [
-    { nombre: "Mesopotamia", etiqueta: "Mesopotamia"},
-    { nombre: "Histórico", etiqueta: "histórico"},
-    { nombre: "Escritura", etiqueta: "escritura"},
-    { nombre: "Escultura", etiqueta: "escultura"},
-    { nombre: "Religioso", etiqueta: "religioso"},
-    { nombre: "Egipto", etiqueta: "Egipto"}
+    { nombre: "Mesopotamia", etiqueta: "Mesopotamia" },
+    { nombre: "Histórico", etiqueta: "histórico" },
+    { nombre: "Escritura", etiqueta: "escritura" },
+    { nombre: "Escultura", etiqueta: "escultura" },
+    { nombre: "Religioso", etiqueta: "religioso" },
+    { nombre: "Egipto", etiqueta: "Egipto" }
   ];
 
   const grid = document.getElementById('gridEtiquetas');
-  
-  obras.forEach((item) => {
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `
-      <a href="search?id=${item.etiqueta}">
-      <div class="card-body">
-        <h5 class="card-title">${item.nombre}</h5>
-      </div>
-      </a>
-    `;
-    grid.appendChild(card);
+  grid.classList.add('etiquetas-container'); // Asegura estilos
+
+  obras.forEach(item => {
+    const tag = document.createElement('a');
+    tag.href = `search?id=${item.etiqueta}`;
+    tag.className = 'etiqueta-card';
+    tag.textContent = item.nombre;
+    grid.appendChild(tag);
   });
 }
 

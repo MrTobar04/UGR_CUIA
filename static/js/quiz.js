@@ -25,8 +25,10 @@ function cargarQuiz() {
       return fetch('static/json/preguntas.json')
         .then(response => response.json())
         .then(data => {
-          // Filtrar las preguntas recomendadas por ID
-          preguntas = data.filter(item => recomendaciones.includes(item.id));
+          // Filtrar y agregar campo de respuesta del usuario
+          preguntas = data
+            .filter(item => recomendaciones.includes(item.id))
+            .map(p => ({ ...p, respuestaUsuario: null }));
           mostrarPregunta();
         });
     })
@@ -52,24 +54,28 @@ function mostrarPregunta() {
   titulo.classList.add("mb-3");
   form.appendChild(titulo);
 
+  const numeros = ["1", "2", "3", "4"];
+
   opciones.forEach((opcion, index) => {
+    const numero = numeros[index];
     const div = document.createElement("div");
     div.classList.add("form-check");
 
+    const checked = (pregunta.respuestaUsuario === index) ? 'checked' : '';
+
     div.innerHTML = `
-      <input class="form-check-input" type="radio" name="respuesta" id="opcion${index}" value="${index}">
+      <input class="form-check-input" type="radio" name="respuesta" id="opcion${index}" value="${index}" ${checked}>
       <label class="form-check-label" for="opcion${index}">
-        ${opcion}
+        <strong>${numero}.</strong> ${opcion}
       </label>
     `;
     form.appendChild(div);
   });
 
-  // Botones sin contador (el contador es independiente)
   form.innerHTML += `
     <div class="d-flex justify-content-between align-items-center mt-4">
-      <button type="button" class="btn btn-secondary" onclick="irAtras()" ${preguntaActual === 0 ? "disabled" : ""}>Atrás</button>
-      <button type="submit" class="btn btn-danger">Responder</button>
+      <button type="button" class="btn btn-secondary" id="btnAtras" onclick="irAtras()" ${preguntaActual === 0 ? "disabled" : ""}>Atrás</button>
+      <button type="submit" class="btn btn-danger" id="btnResponder">Responder</button>
     </div>
   `;
 
@@ -78,11 +84,26 @@ function mostrarPregunta() {
     const seleccionada = form.querySelector("input[name='respuesta']:checked");
     if (!seleccionada) return;
 
-    const respuestaUsuario = pregunta.opciones[parseInt(seleccionada.value)];
-    if (respuestaUsuario === pregunta.respuesta) {
-      puntaje++;
+    const indiceSeleccionado = parseInt(seleccionada.value);
+    const respuestaAnterior = preguntas[preguntaActual].respuestaUsuario;
+    const esAnteriorCorrecta = respuestaAnterior !== null &&
+      pregunta.opciones[respuestaAnterior] === pregunta.respuesta;
+    const esNuevaCorrecta = pregunta.opciones[indiceSeleccionado] === pregunta.respuesta;
+
+    // Ajustar puntaje solo si cambia la respuesta
+    if (respuestaAnterior !== null) {
+      if (esAnteriorCorrecta && !esNuevaCorrecta) {
+        puntaje--;
+      } else if (!esAnteriorCorrecta && esNuevaCorrecta) {
+        puntaje++;
+      }
+    } else {
+      if (esNuevaCorrecta) {
+        puntaje++;
+      }
     }
 
+    preguntas[preguntaActual].respuestaUsuario = indiceSeleccionado;
     preguntaActual++;
     mostrarPregunta();
     actualizarContador();
@@ -91,6 +112,14 @@ function mostrarPregunta() {
 
   actualizarContador();
   actualizarBarraProgreso();
+
+  const evento = new CustomEvent("preguntaMostrada", {
+    detail: {
+      indice: preguntaActual,
+      pregunta: pregunta.pregunta
+    }
+  });
+  document.dispatchEvent(evento);
 }
 
 function irAtras() {
@@ -139,3 +168,4 @@ function mostrarResultadoFinal() {
     console.error('Error:', error);
   });
 }
+

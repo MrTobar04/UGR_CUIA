@@ -1,9 +1,11 @@
+import os
 from pymongo import MongoClient
 import jwt
 import datetime
 from bson.objectid import ObjectId
 from pymongo import MongoClient
 from flask import Flask, request, jsonify
+from dotenv import load_dotenv
 
 
 # Conexión local (localhost) por defecto en el puerto 27017
@@ -12,9 +14,14 @@ client = MongoClient("mongodb://localhost:27017/")
 # Selecciona la base de datos
 db = client["MuseoVirtual"]
 
+# Obtener la clave JWT
 
-# Clave secreta (igual que en Express.js para mantener compatibilidad)
-JWT_SECRET = 'clave_secreta_super_segura'
+# Cargar variables del archivo .env
+load_dotenv()
+
+JWT_SECRET = os.getenv("JWT_SECRET")
+if not JWT_SECRET:
+    raise ValueError("JWT_SECRET no encontrada en .env")
 
 
 from flask import jsonify

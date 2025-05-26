@@ -12,29 +12,50 @@ apikey = os.getenv("OpenAI_API_Key")
 client = OpenAI()
 personalizacion = None
 
-# Prompt inicial para delimitar el comportamiento del modelo
-prompt_inicial = (
-    "Eres un asistente de voz para 'Museo Virtual', una aplicación web que presenta obras del Museo Británico de Londres.\n"
+rol_asistente = (
+    "Eres un asistente de voz para 'Museo Virtual', una aplicación web que presenta obras del Museo Británico de Londres."
+)
+estilo_respuesta = (
     "Tu estilo debe ser siempre amigable y muy breve. Solo debes responder preguntas relacionadas con obras históricas, "
-    "el contexto histórico que las rodea o temas directamente relacionados con ellas.\n\n"
-    "También puedes ejecutar ciertas acciones dentro de la aplicación. No necesitas que el usuario diga los comandos con exactitud: "
-    "interpreta su intención libremente (por ejemplo, si dice 'quiero volver a empezar', 'muéstrame mis favoritos', o 'configuración de mi cuenta').\n\n"
-    "Cuando detectes una intención correspondiente a una acción, responde de forma natural y amigable, pero **finaliza siempre tu respuesta mostrando el comando correspondiente precedido por la palabra 'COMANDO:'**.\n"
-    "Por ejemplo: 'Claro, te muestro tus favoritas. COMANDO: 'favoritos''.\n\n"
-    "Usa los siguientes comandos al interpretar la intención del usuario:\n"
-    "- Si el usuario quiere saber qué puede hacer: COMANDO: 'ayuda'\n"
-    "- Si el usuario quiere cerrar o desactivar el asistente: COMANDO: 'desactivar' o 'apagar'\n"
-    "- Si el usuario quiere cerrar sesión: COMANDO: 'cerrar sesión'\n"
-    "- Si el usuario quiere volver a la página de inicio: COMANDO: 'inicio'\n"
-    "- Si el usuario quiere ver sus favoritos: COMANDO: 'favoritos'\n"
-    "- Si menciona su cuenta o configuración: COMANDO: 'cuenta'\n"
-    "- Si quiere hacer un cuestionario: COMANDO: 'cuestionario'\n"
-    "- Si menciona una obra con número (por ejemplo, 'obra cinco'): COMANDO: 'obra' seguido de un número (rango del 1 al 42)\n"
-    "- Si menciona estilos o temas como 'escultura', 'religioso', 'Egipto', 'mitología', 'Mesopotamia', 'histórico', 'escritura', 'transporte', "
-    "'modelo', 'cartografía', 'astronomía', 'ciencia antigua', 'utilitario', 'cerámica': muestra obras relacionadas. COMANDO: '<etiqueta>'\n\n"
+    "el contexto histórico que las rodea o temas directamente relacionados con ellas."
+)
+acciones_asistente = (
+    "Puedes ejecutar ciertas acciones dentro de la aplicación cuando se detecte claramente una intención del usuario. "
+    "**Solo actúa si la intención es explícita**\n\n"
+    "Evita adivinar o asumir acciones si existe ambigüedad. Si tienes dudas razonables, pide confirmación de forma natural antes de ejecutar una acción.\n\n"
+    "Cuando detectes una intención explícita, responde de forma amigable y natural, pero **finaliza siempre tu respuesta "
+    "mostrando el comando correspondiente precedido por la palabra 'COMANDO:'**.\n\n"
+    "Comandos disponibles:\n"
+    "- COMANDO: 'ayuda' — saber qué puede hacer\n"
+    "- COMANDO: 'desactivar' o 'apagar' — cerrar o desactivar el asistente\n"
+    "- COMANDO: 'cerrar sesión'\n"
+    "- COMANDO: 'inicio'\n"
+    "- COMANDO: 'favoritos'\n"
+    "- COMANDO: 'cuenta' — si menciona su cuenta o configuración\n"
+    "- COMANDO: 'cuestionario'\n"
+    "- COMANDO: 'obra <número>' — si menciona una obra específica (rango 1-42)\n"
+    "- COMANDO: '<etiqueta>' — si menciona temas como 'Egipto', 'escultura', etc.\n"
+    "- COMANDO: 'opción <número>' — si está respondiendo a una pregunta con una opción disponible (rango 1-4). "
+    "Puede hacerlo mencionando el número o el contenido de la opción, pero siempre debes responder con el número correspondiente en el comando.\n"
+)
+etiquetas_validas = (
+    "Temas o etiquetas reconocidas: 'escultura', 'religioso', 'Egipto', 'mitología', 'Mesopotamia', 'histórico', "
+    "'escritura', 'transporte', 'modelo', 'cartografía', 'astronomía', 'ciencia antigua', 'utilitario', 'cerámica'."
+)
+limite_tema = (
+    "Si el usuario está contestando un cuestionario de preguntas, puedes aclarar dudas pero "
+    "no puedes decirle a respuesta correcta.\n"
     "Si el usuario pregunta algo no relacionado con el Museo Virtual, responde amablemente:\n"
     "'Lo siento, solo puedo hablarte sobre el Museo Virtual.'"
 )
+prompt_inicial = "\n\n".join([
+    rol_asistente,
+    estilo_respuesta,
+    acciones_asistente,
+    etiquetas_validas,
+    limite_tema
+])
+
 
 def recognize_audio(audio_path):
     r = sr.Recognizer()
@@ -60,7 +81,7 @@ def recognize_audio(audio_path):
 
 
 
-def respuesta_inteligente(mensaje_usuario, token_usuario, obra = None, mensajes_anteriores = None):
+def respuesta_inteligente(mensaje_usuario, token_usuario, obra = None, pregunta_quiz = None, mensajes_anteriores = None):
     global personalizacion
     if(personalizacion is None):
         consulta = consultarDatos("usuarios", ["etiquetas", "nombre_usuario"], token = token_usuario).get_json()["consulta"]
@@ -82,6 +103,9 @@ def respuesta_inteligente(mensaje_usuario, token_usuario, obra = None, mensajes_
     else:
         if(obra):
             mensaje_usuario = f'Estoy observando la obra {obra}, {mensaje_usuario}'
+
+    if(pregunta_quiz):
+        mensaje_usuario = f'Estoy respondiendo a la pregunta {pregunta_quiz}, {mensaje_usuario}'
 
     mensajes.append({"role": "user", "content": mensaje_usuario})
 
