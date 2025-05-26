@@ -17,7 +17,7 @@ from pydub import AudioSegment
 
 from utils.ar_render import mostrarModelo
 from utils.audio_processing import recognize_audio, respuesta_inteligente
-from utils.contenido import recomendar_elementos, desplegar_contenido, recomendar_preguntas
+from utils.content import recomendar_elementos, desplegar_contenido, recomendar_preguntas
 from utils.consultadb import generarTokenUsuario, consultarDatos
 from utils.face_detect import detectar_cara, obtener_face_encoding
 
