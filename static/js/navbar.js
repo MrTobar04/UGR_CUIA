@@ -756,7 +756,7 @@ async function leerPregunta(){
   document.getElementById("btnAtras").disabled = false;
   document.getElementById("btnResponder").disabled = false;  
   botonActivado();
-  if (monitoreoActivado) monitorVolume(); hablando = fale;
+  if (monitoreoActivado) monitorVolume(); hablando = false;
 }
 
 
