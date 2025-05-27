@@ -275,7 +275,7 @@ def pregunta_inteligente():
 
         # Procesar audio
         pregunta = recognize_audio(wav_path)  
-        respuesta = respuesta_inteligente(pregunta, tokenUsuario, obra, pregunta_quiz, historial)  
+        respuesta, pregunta = respuesta_inteligente(pregunta, tokenUsuario, obra, pregunta_quiz, historial)  
 
         # Dividir antes de cada 'COMANDO' usando lookahead
         partes = re.split(r'(?=COMANDO)', respuesta)

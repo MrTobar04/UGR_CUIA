@@ -745,7 +745,8 @@ function mostrarBienvenida(){
 
 async function leerPregunta(){
 
-  clearInterval(intervaloMonitoreo)
+  clearInterval(intervaloMonitoreo);
+  hablando = true;
   botonMuteado();
   document.getElementById("btnAtras").disabled = true;
   document.getElementById("btnResponder").disabled = true;
@@ -755,7 +756,7 @@ async function leerPregunta(){
   document.getElementById("btnAtras").disabled = false;
   document.getElementById("btnResponder").disabled = false;  
   botonActivado();
-  if (monitoreoActivado) monitorVolume();
+  if (monitoreoActivado) monitorVolume(); hablando = fale;
 }
 
 

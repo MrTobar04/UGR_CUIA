@@ -2,9 +2,11 @@ import gc
 import cv2
 import numpy as np
 import time
+import threading
 import utils.cuia as cuia
-import utils.droidCam as camara
-# import utils.camara as camara
+import utils.webcam as camara
+# import utils.droidCam as camara
+# import utils.ipwecam as camara
 
 # --- Inicialización una vez ---
 cameraMatrix = camara.cameraMatrix
@@ -15,20 +17,42 @@ modeloCargado = "ninguno"
 escalaCargada = None
 
 webcam = None
-escena = None  # Usamos un tamaño base, luego adaptamos con cada imagen
+escena = None
+alto = None
+ancho = None
+
+# Para control de tiempo e hilo de cierre
+ultima_llamada = time.time()
+cerrar_evento = threading.Event()
+monitor_activo = False  # Bandera: ¿el hilo ya fue lanzado?
 
 # Detector ArUco reutilizable
 diccionario_aruco = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_5X5_50)
 detector_aruco = cv2.aruco.ArucoDetector(diccionario_aruco)
 
+# --- Hilo para cerrar la cámara tras 2 segundos de inactividad ---
+def monitor_inactividad():
+    global webcam, escena
+    while not cerrar_evento.is_set():
+        time.sleep(5)
+        if webcam is not None and (time.time() - ultima_llamada > 2):
+            print("[⏳] Inactividad detectada. Cerrando cámara...")
+            webcam.release()
+            webcam = None
+            if escena is not None:
+                escena.scene.clear()
+                escena = None
+            gc.collect()
+
+
 # --- Función principal ---
 def mostrarModelo(rutaModelo, aEscala=False):
     global modeloCargado, modelo, escena, webcam, alto, ancho, escalaCargada
+    global ultima_llamada, monitor_activo
+
+    ultima_llamada = time.time()
 
     start_total = time.time()
-
-    if escena is None:
-        print("no entiendo nada")
         
     if rutaModelo != modeloCargado or escalaCargada != aEscala:
         t1 = time.time()
@@ -66,7 +90,7 @@ def mostrarModelo(rutaModelo, aEscala=False):
 
     if webcam is None:
         t2 = time.time()
-        cam = 2  # o dirección IP de cámara
+        cam = 0  # o dirección IP de cámara
         bk = cuia.bestBackend(cam)
         webcam = cv2.VideoCapture(cam, bk)
         ancho = int(webcam.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -81,6 +105,12 @@ def mostrarModelo(rutaModelo, aEscala=False):
         if not success:
             raise ValueError("No se pudo leer un nuevo frame del video.")
     #print(f"[✔] Frame capturado en {time.time() - t3:.4f} segundos.")
+
+      # ⏱️ Lanzar el hilo de cierre si no está activo
+    if not monitor_activo:
+        threading.Thread(target=monitor_inactividad, daemon=True).start()
+        monitor_activo = True
+        print("[🧵] Hilo de cierre automático iniciado.")
 
     if escena is None:
         t4 = time.time()

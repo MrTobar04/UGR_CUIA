@@ -9,6 +9,14 @@ let streaming = false;
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const rutaModelo = `static/src/3dmodels/model_${id}.glb`;
+const btnEscala = document.getElementById('verEscala');
+
+btnEscala.addEventListener('click', () => {
+  btnEscala.disabled = true;
+  setTimeout(() => {
+    btnEscala.disabled = false;
+  }, 2000);
+});
 
 btnAR.addEventListener('click', () => {
   if (!streaming) {
@@ -24,6 +32,10 @@ btnAR.addEventListener('click', () => {
     arViewer.classList.add('d-none');
     document.getElementById('divVerEscala').style.display = 'none';
   }
+  btnAR.disabled = true;
+  setTimeout(() => {
+    btnAR.disabled = false;
+  }, 2000);
 });
 
 function requestNextImage(isFirst = false) {
@@ -36,7 +48,7 @@ function requestNextImage(isFirst = false) {
     },
     body: JSON.stringify({
       ruta_modelo: rutaModelo,
-      a_escala: document.getElementById('verEscala').checked
+      a_escala: btnEscala.checked
     })
   })
     .then(res => {

@@ -45,6 +45,24 @@
           <input type="password" class="form-control bg-dark text-white border-secondary" id="password" required />
         </div>
 
+       <!-- Checkbox de términos y condiciones con texto desplegable -->
+<div class="form-check mb-3">
+  <input class="form-check-input" type="checkbox" id="terminos" required />
+  <label class="form-check-label" for="terminos"  style="color: white;">
+    Acepto los <a class="text-decoration-underline text-danger" data-bs-toggle="collapse" href="#terminosTexto" role="button" aria-expanded="false" aria-controls="terminosTexto">
+      términos y condiciones
+    </a> para usar <strong>Museo Virtual</strong>.
+  </label>
+</div>
+
+<!-- Contenido desplegable -->
+<div class="collapse mb-3" id="terminosTexto">
+  <div class="card card-body bg-secondary text-white">
+    <p>Al usar Museo Virtual, aceptas que tus datos podrán ser utilizados para mejorar tu experiencia en la plataforma. Nos comprometemos a proteger tu privacidad y no compartir tu información personal con terceros sin tu consentimiento.</p>
+    <p>Además, te comprometes a hacer un uso responsable del sitio, respetando los derechos de autor y evitando el uso indebido de los recursos ofrecidos.</p>
+  </div>
+</div>
+
         <!-- Botón Reconocimiento facial -->
         <button id="btnFacial" type="button" class="btn btn-outline-light w-100 mb-2" data-bs-toggle="modal"
           data-bs-target="#modalFacial">

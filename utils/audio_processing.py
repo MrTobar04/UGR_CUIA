@@ -115,4 +115,4 @@ def respuesta_inteligente(mensaje_usuario, token_usuario, obra = None, pregunta_
         messages=mensajes
     )
     print(response.choices[0].message.content)
-    return response.choices[0].message.content
+    return response.choices[0].message.content, mensaje_usuario
